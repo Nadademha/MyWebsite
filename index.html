@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mai-MaaySoS - Language Input Software (English to Maay)</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Verdana', sans-serif;
+            background: linear-gradient(135deg, #1b1b1b, #3a3a3a);
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #00ffc3;
+            text-align: center;
+            padding: 80px 20px;
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+        }
+
+        header::after {
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 80px;
+            height: 5px;
+            background: #00ffc3;
+            transform: translateX(-50%);
+        }
+
+        nav {
+            background: linear-gradient(90deg, #001510, #004e92);
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+        }
+
+        nav a {
+            color: #00ffc3;
+            margin: 0 15px;
+            font-size: 1.5em;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        nav a:hover {
+            color: #00ff00;
+            transition: color 0.3s ease;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(to right, #00ff00, #493240, #0f0c29);
+            color: #ffffff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+        }
+
+        .hero-section h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+
+        .hero-section p {
+            font-size: 1.5em;
+            margin: 20px 0 40px;
+        }
+
+        .hero-section button {
+            background-color: #00ff00;
+            border: none;
+            color: #ffffff;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+        }
+
+        .hero-section button:hover {
+            background-color: #00ffc3;
+            color: #0f0c29;
+            transition: background-color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .translate-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(120deg, #0f0c29, #24243e);
+            padding: 60px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        .translate-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .input-area {
+            width: 45%;
+        }
+
+        .input-area textarea {
+            width: 100%;
+            height: 200px;
+            padding: 20px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 10px;
+            background: #2b2b2b;
+            color: #00ffc3;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .translate-section button {
+            width: 45%;
+            padding: 20px;
+            font-size: 1.5em;
+            background-color: #00ff00;
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+            transition: background-color 0.3s ease;
+        }
+
+        .translate-section button:hover {
+            background-color: #00ffc3;
+            color: #0f0c29;
+        }
+
+        .features-section {
+            background: #1b1b1b;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .features-section h2 {
+            font-size: 3em;
+            margin-bottom: 40px;
+            color: #00ffc3;
+        }
+
+        .feature-box {
+            display: inline-block;
+            width: 30%;
+            background: linear-gradient(135deg, #00ff00, #493240);
+            padding: 30px;
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            color: #ffffff;
+        }
+
+        .feature-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        .feature-box h3 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        .feature-box p {
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+
+        .add-words-section {
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            padding: 80px 20px;
+            text-align: center;
+            color: #00ffc3;
+        }
+
+        .add-words-section h2 {
+            font-size: 3em;
+            margin-bottom: 30px;
+        }
+
+        .add-words-section form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .add-words-section input,
+        .add-words-section textarea {
+            width: 80%;
+            max-width: 600px;
+            margin: 15px 0;
+            padding: 15px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 10px;
+            background: #2b2b2b;
+            color: #00ffc3;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+        }
+
+        .add-words-section button {
+            background-color: #00ff00;
+            color: #ffffff;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+            margin-top: 20px;
+        }
+
+        .add-words-section button:hover {
+            background-color: #00ffc3;
+            color: #0f0c29;
+            transition: background-color 0.3s ease;
+        }
+
+        footer {
+            background-color: #0f0c29;
+            text-align: center;
+            padding: 40px 20px;
+            color: #ffffff;
+            font-size: 1.2em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.6);
+        }
+
+        footer a {
+            color: #00ffc3;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        footer a:hover {
+            color: #00ff00;
+            transition: color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mai-MaaySoS</h1>
+        <p>Language Input Software (English to Maay)</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Translate</a>
+        <a href="#">Add Words</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero-section">
+        <h1>Unlock Seamless Translations</h1>
+        <p>Translate between English and Maay with ease, powered by our advanced language input software.</p>
+        <button>Get Started</button>
+    </section>
+
+    <div class="container">
+        <section class="translate-section">
+            <div class="input-area">
+                <h2>Enter English Text</h2>
+                <textarea placeholder="Type your English text here..."></textarea>
+            </div>
+
+            <button>Translate to Maay</button>
+        </section>
+    </div>
+
+    <section class="features-section">
+        <h2>Our Cutting-Edge Features</h2>
+
+        <div class="feature-box">
+            <h3>Fast & Accurate</h3>
+            <p>Get translations in real-time with accuracy for professional and casual usage.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>Contextual Translations</h3>
+            <p>Our software understands context to ensure meaningful translations.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>Voice Recognition</h3>
+            <p>Speak directly and get instant translations for seamless communication.</p>
+        </div>
+    </section>
+
+    <section class="add-words-section">
+        <h2>Add New Words to Our Database</h2>
+        <form>
+            <input type="text" placeholder="Enter the new word in English" required>
+            <input type="text" placeholder="Enter the translation in Maay" required>
+            <textarea placeholder="Provide context or example usage (optional)"></textarea>
+            <button type="submit">Submit New Word</button>
+        </form>
+
+        <h2>Or Paste a List of Pre-Translated Words</h2>
+        <form>
+            <textarea placeholder='Paste your words in this format: Language1@Language2 "example text"' required></textarea>
+            <button type="submit">Submit Bulk Translations</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mai-MaaySoS | Developed by Adan | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
