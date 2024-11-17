@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mai-MaaySoS - Advanced Search</title>
+    <title>Mai-MaaySoS - Word List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
         <h1>Mai-MaaySoS</h1>
         <p>Your Seamless Maay Translator</p>
     </header>
 
+    <!-- Search Section -->
     <section class="search-section">
-        <div class="search-container">
-            <input type="text" id="search-bar" placeholder="Type to search..." autofocus>
-            <button class="search-icon">
-                <img src="search-icon.svg" alt="Search Icon" width="20">
-            </button>
-        </div>
-        <div id="suggestions"></div>
+        <input type="text" id="search-bar" placeholder="Search for a word...">
+        <button class="search-icon" id="search-button">Search</button>
     </section>
+
+    <!-- Word List Section -->
+    <section id="word-list">
+        <!-- Words will be dynamically populated here -->
+    </section>
+
+    <footer>
+        <p>Developed by Adan Ahmed</p>
+        <p>&copy; 2024 Mai-MaaySoS. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>

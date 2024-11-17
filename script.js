@@ -1,441 +1,175 @@
-const dictionary = [
-    { english: "cabbage", maay: "kaabash" },
-    { english: "cabin", maay: "qolka yar ama meel yar oo lagu nagaado" },
-    { english: "cable", maay: "fiilo ama xadhig koronto" },
-    { english: "cactus", maay: "dhirta qodxaha leh oo biyo kaydsata" },
-    { english: "cage", maay: "qafis" },
-    { english: "cake", maay: "keeg" },
-    { english: "calculate", maay: "xisaabi" },
-    { english: "calendar", maay: "kalandar" },
-    { english: "calm", maay: "deggan" },
-    { english: "camera", maay: "kaamiro" },
-    { english: "camp", maay: "kaamam ama meel la degto" },
-    { english: "campaign", maay: "olole ama dadaal loogu jiro in wax la gaadho" },
-    { english: "can", maay: "karin ama wax awoodo" },
-    { english: "cancel", maay: "jooji" },
-    { english: "candle", maay: "shumac" },
-    { english: "candy", maay: "macmacaan" },
-    { english: "cap", maay: "koofiyad yar" },
-    { english: "capable", maay: "awood leh ama kara" },
-    { english: "capacity", maay: "awoodda wax lagu hayo" },
-    { english: "capital", maay: "magaalada caasimadda ah" },
-    { english: "captain", maay: "kabtan ama hogaamiyaha koox ama markab" },
-    { english: "capture", maay: "qabsasho" },
-    { english: "car", maay: "baabuur" },
-    { english: "card", maay: "kaarka ama warqad gaaban oo xog wadata" },
-    { english: "care", maay: "daryeel ama xanaanayn" },
-    { english: "career", maay: "shaqo ama xirfad muddo la qabto" },
-    { english: "careful", maay: "feejignaan leh ama taxaddar" },
-    { english: "cargo", maay: "xamuul" },
-    { english: "carpet", maay: "rooga ama sagxadda" },
-    { english: "carriage", maay: "gaari ama gaadiidka wax qaada" },
-    { english: "carry", maay: "qaado" },
-    { english: "cart", maay: "gaari yar oo alaab lagu raro" },
-    { english: "case", maay: "kiis ama arin gaar ah" },
-    { english: "cash", maay: "lacag caddaan ah" },
-    { english: "castle", maay: "qalcad ama meel ammaan ah oo la degi karo" },
-    { english: "cat", maay: "bisad" },
-    { english: "catch", maay: "qabo ama gacanta ku dhigo" },
-    { english: "category", maay: "qeyb ama nooc ka mid ah waxyaabo isku dhow" },
-    { english: "cause", maay: "sabab" },
-    { english: "ceiling", maay: "saqafka sare ee qol" },
-    { english: "celebrate", maay: "dabaaldego ama farxadda u samayn" },
-    { english: "cell", maay: "qolka yar ama unug ka mid ah jidhka" },
-    { english: "center", maay: "bartamaha" },
-    { english: "century", maay: "qarni" },
-    { english: "ceremony", maay: "xaflad ama munasabad" },
-    { english: "certain", maay: "hubin ama xaqiiqo" },
-    { english: "chain", maay: "silsilad" },
-    { english: "chair", maay: "kursi" },
-    { english: "challenge", maay: "caqabad ama tartan" },
-    { english: "chamber", maay: "qolka hoose ama qol gaar ah" },
-    { english: "chance", maay: "fursad" },
-    { english: "change", maay: "isbeddel ama wax ka duwan" },
-    { english: "character", maay: "dabeecadda ama astaanta qofka" },
-    { english: "charge", maay: "qaab lacag lagu qaado ama wax ku dalaca" },
-    { english: "charity", maay: "samafal ama wax dadka lagu caawiyo" },
-    { english: "chase", maay: "dhaqso u eryo" },
-    { english: "chat", maay: "sheekayso" },
-    { english: "cheap", maay: "jaban" },
-    { english: "check", maay: "hubi" },
-    { english: "cheese", maay: "jiis" },
-    { english: "chemical", maay: "kiimiko ama shay la sameeyey" },
-    { english: "chest", maay: "xabadka ama sanduuqa" },
-    { english: "chicken", maay: "digaag" },
-    { english: "chief", maay: "hogaamiye ama madax sare" },
-    { english: "child", maay: "ilmo" },
-    { english: "choice", maay: "doorasho" },
-    { english: "choose", maay: "dooro" },
-    { english: "church", maay: "kaniisad" },
-    { english: "circle", maay: "wareeg ama goobada" },
-    { english: "citizen", maay: "muwaadin" },
-    { english: "city", maay: "magaalo" },
-    { english: "civil", maay: "bulsho la xiriira" },
-    { english: "claim", maay: "sheegasho ama xaq u lahaansho" },
-    { english: "class", maay: "fasal ama koox" },
-    { english: "clean", maay: "nadiif" },
-    { english: "clear", maay: "cad ama si wanaagsan loo arko" },
-    { english: "climate", maay: "cimilada ama xaaladda hawada" },
-    { english: "climb", maay: "kor u fuul" },
-    { english: "clock", maay: "saacad" },
-    { english: "close", maay: "xidho ama dhow" },
-    { english: "cloth", maay: "dhar" },
-    { english: "cloud", maay: "daruur" },
-    { english: "club", maay: "naadi ama koox is urursan" },
-    { english: "coal", maay: "dhuxul" },
-    { english: "coast", maay: "xeebta" },
-    { english: "coat", maay: "jaakad" },
-    { english: "coffee", maay: "qaxwo" },
-    { english: "coin", maay: "shilin ama lacag bir ah" },
-    { english: "cold", maay: "qabow" },
-    { english: "collect", maay: "uruuri" },
-    { english: "color", maay: "midab" },
-    { english: "column", maay: "tiir ama saf toosan" },
-    { english: "combine", maay: "isku dar" },
-    { english: "comfort", maay: "raaxo" },
-    { english: "command", maay: "amar" },
-    { english: "comment", maay: "faallo" },
-    { english: "common", maay: "caadi ah ama inta badan dhaca" },
-    { english: "community", maay: "bulsho" },
-    { english: "company", maay: "shirkad ama koox shaqo wada jir u qabata" },
-    { english: "compare", maay: "isku bar bar dhig" },
-    { english: "competition", maay: "tartan" },
-    { english: "complain", maay: "cabasho" },
-    { english: "complete", maay: "buuxa ama dhammeystiran" },
-    { english: "complex", maay: "isku dhafan ama adag" },
-    { english: "computer", maay: "kombiyuutar" },
-    { english: "concept", maay: "fikrad ama aragti" },
-    { english: "concern", maay: "walaac ama dhib" },
-    { english: "condition", maay: "xaalad" },
-    { english: "conference", maay: "shir" },
-    { english: "confidence", maay: "kalsooni" },
-    { english: "confirm", maay: "xaqiiji" },
-    { english: "conflict", maay: "khilaaf ama is mari waa" },
-    { english: "confuse", maay: "jahawareer" },
-    { english: "connect", maay: "isku xidhiidh" },
-    { english: "conscious", maay: "baraarug ama ogaan" },
-    { english: "consider", maay: "ka fiirso" },
-    { english: "constant", maay: "joogto ah" },
-    { english: "construct", maay: "dhiso" },
-    { english: "contain", maay: "wax lagu hayo" },
-    { english: "content", maay: "waxyaabaha ku jira ama qanacsan" },
-    { english: "continue", maay: "sii wad" },
-    { english: "control", maay: "maamul ama xakameyn" },
-    { english: "conversation", maay: "sheekaysi" },
-    { english: "cook", maay: "cunto kariye" },
-    { english: "cool", maay: "qabow ama niyad deggan" },
-    { english: "copy", maay: "nuqul ka qaadid" },
-    { english: "correct", maay: "sax ah" },
-    { english: "cost", maay: "qiimaha ama kharashka" },
-    { english: "cotton", maay: "suuf" },
-    { english: "could", maay: "kara ama awoodo" },
-    { english: "count", maay: "tirso" },
-    { english: "country", maay: "dal ama waddan" },
-    { english: "couple", maay: "labo ama lammaane" },
-    { english: "courage", maay: "geesinimo" },
-    { english: "course", maay: "kooras ama wadada wax lagu barto" },
-    { english: "court", maay: "maxkamad" },
-    { english: "cover", maay: "dabool" },
-    { english: "cow", maay: "sac" },
-    { english: "crash", maay: "shil" },
-    { english: "create", maay: "abuur" },
-    { english: "creature", maay: "makhluuq" },
-    { english: "credit", maay: "amaah ama sumcad" },
-    { english: "crime", maay: "dambi" },
-    { english: "crisis", maay: "qalalaase ama xaalad adag" },
-    { english: "critical", maay: "aad muhiim u ah" },
-    { english: "cross", maay: "isku socod ama ka gudub" },
-    { english: "crowd", maay: "dad badan" },
-    { english: "cry", maay: "ooyi" },
-    { english: "culture", maay: "dhaqan" },
-    { english: "cup", maay: "koob" },
-    { english: "current", maay: "hada socda ama hadda jira" },
-    { english: "curve", maay: "jeex ama xariiq leexan" },
-    { english: "custom", maay: "dhaqan ama caado" },
-    { english: "customer", maay: "macmiil" },
-    { english: "cut", maay: "gooy" },
-    { english: "ability", maay: "awood" },
-    { english: "able", maay: "awood leh" },
-    { english: "about", maay: "ku saabsan" },
-    { english: "above", maay: "kor" },
-    { english: "abundant", maay: "badnaan" },
-    { english: "accept", maay: "aqbal" },
-    { english: "accident", maay: "shil" },
-    { english: "accompany", maay: "la soco" },
-    { english: "according", maay: "sida ku xusan" },
-    { english: "account", maay: "xisaab" },
-    { english: "accurate", maay: "sax ah" },
-    { english: "achieve", maay: "gaadho" },
-    { english: "acquire", maay: "hel" },
-    { english: "across", maay: "dhinaca kale" },
-    { english: "act", maay: "ficil" },
-    { english: "action", maay: "ficil" },
-    { english: "active", maay: "firfircoon" },
-    { english: "actor", maay: "jilaa" },
-    { english: "add", maay: "ku dar" },
-    { english: "address", maay: "cinwaan" },
-    { english: "adjust", maay: "habee" },
-    { english: "admit", maay: "qir" },
-    { english: "adopt", maay: "koriso" },
-    { english: "adult", maay: "qaangaar" },
-    { english: "advance", maay: "horumar" },
-    { english: "advantage", maay: "faa'iido" },
-    { english: "adventure", maay: "Safar xiiso badan oo lagu raaxaysto ama lagu barto wax cusub." },
-    { english: "advice", maay: "talo" },
-    { english: "affect", maay: "saameyn" },
-    { english: "affection", maay: "jacayl" },
-    { english: "afraid", maay: "cabsi" },
-    { english: "after", maay: "ka dib" },
-    { english: "afternoon", maay: "galab" },
-    { english: "again", maay: "mar kale" },
-    { english: "against", maay: "ka soo horjeeda" },
-    { english: "age", maay: "da'" },
-    { english: "agency", maay: "hay'ad" },
-    { english: "agent", maay: "wakiil" },
-    { english: "agree", maay: "waafaqsan" },
-    { english: "agreement", maay: "heshiis" },
-    { english: "ahead", maay: "horay" },
-    { english: "air", maay: "hawo" },
-    { english: "airplane", maay: "diyaarad" },
-    { english: "algorithm", maay: "Hab fikradan ama farsamo loo isticmaalo si loo xaliyo dhibaatada xisaab ahaan ama loogula dhaqmo xog." },
-    { english: "alive", maay: "nool" },
-    { english: "all", maay: "dhammaan" },
-    { english: "allow", maay: "ogolaado" },
-    { english: "almost", maay: "ku dhowaad" },
-    { english: "alone", maay: "keligaa" },
-    { english: "along", maay: "la socda" },
-    { english: "already", maay: "horay" },
-    { english: "also", maay: "sidoo kale" },
-    { english: "always", maay: "had iyo jeer" },
-    { english: "amazing", maay: "cajiib" },
-    { english: "ambition", maay: "Rabitaan xoogan oo lagu doonayo in qofku gaadho wax weyn ama guul wayn noloshiisa." },
-    { english: "amount", maay: "qaddar" },
-    { english: "ancient", maay: "qadiim" },
-    { english: "anger", maay: "cadho" },
-    { english: "angle", maay: "xagal" },
-    { english: "animal", maay: "xayawaan" },
-    { english: "announce", maay: "ku dhawaaq" },
-    { english: "annual", maay: "sanadle ah" },
-    { english: "another", maay: "mid kale" },
-    { english: "answer", maay: "jawaab" },
-    { english: "antibiotic", maay: "Daawo loo adeegsado in lagula dagaalamo ama dilo bakteeriyada jidhka ku jirta." },
-    { english: "anxious", maay: "walwal" },
-    { english: "any", maay: "wax kasta" },
-    { english: "anyone", maay: "cid kasta" },
-    { english: "apart", maay: "gooni" },
-    { english: "apparent", maay: "cad" },
-    { english: "appearance", maay: "muuqaal" },
-    { english: "apple", maay: "tufaax" },
-    { english: "application", maay: "codsi" },
-    { english: "apply", maay: "dalbo" },
-    { english: "appoint", maay: "magacaab" },
-    { english: "approach", maay: "soo dhawoow" },
-    { english: "approval", maay: "ogolaansho" },
-    { english: "area", maay: "aag" },
-    { english: "argue", maay: "dood" },
-    { english: "arrange", maay: "diyaarso" },
-    { english: "arrangement", maay: "diyaar garow" },
-    { english: "arrest", maay: "xirid" },
-    { english: "arrive", maay: "soo gaadhay" },
-    { english: "arrow", maay: "fallaar" },
-    { english: "art", maay: "farshaxan" },
-    { english: "artificial intelligence", maay: "Teknoolojiyada ku dayata caqliga aadanaha oo si otomaatig ah wax u barto kana shaqeeya." },
-    { english: "article", maay: "maqaal" },
-    { english: "artist", maay: "farshaxanle" },
-    { english: "as", maay: "sida" },
-    { english: "ask", maay: "weydiiso" },
-    { english: "asleep", maay: "hurdo" },
-    { english: "assignment", maay: "hawl" },
-    { english: "assist", maay: "caawi" },
-    { english: "assistance", maay: "caawimaad" },
-    { english: "associate", maay: "isku xidhiidh" },
-    { english: "assume", maay: "u qaado" },
-    { english: "atom", maay: "Qaybta ugu yar ee shayga oo ka kooban borotoon, neutron iyo electron, oo samaysa qaybaha walxaha." },
-    { english: "at", maay: "ka" },
-    { english: "atmosphere", maay: "Jawiga ama hawo ku hareeraysan aduunka, taas oo nolosha u muhiim ah." },
-    { english: "attack", maay: "weerar" },
-    { english: "attempt", maay: "isku day" },
-    { english: "attend", maay: "ka soo qayb gal" },
-    { english: "attention", maay: "feejignaan" },
-    { english: "attitude", maay: "dhaqan" },
-    { english: "attract", maay: "soo jiido" },
-    { english: "attraction", maay: "soo jiidasho" },
-    { english: "audience", maay: "dhagaystayaal" },
-    { english: "aunt", maay: "eedo" },
-    { english: "authority", maay: "awood" },
-    { english: "autonomy", maay: "Xurriyad ama awooda qof ama bulsho si ay u maamusho arrimaha iyaga quseeya oo aan dibada laga maamulin." },
-    { english: "available", maay: "la heli karo" },
-    { english: "average", maay: "celcelis" },
-    { english: "avoid", maay: "iska jir" },
-    { english: "award", maay: "abaal marin" },
-    { english: "aware", maay: "ku baraarug" },
-    { english: "awareness", maay: "Ogaanshaha ama dareenka qofka uu ka qabo xaaladaha iyo waxyaalaha ku hareeraysan." },
-    { english: "away", maay: "ka fog" },
-    { english: "awesome", maay: "cajiib" },
-    { english: "baby", maay: "ilmo" },
-    { english: "back", maay: "dib" },
-    { english: "background", maay: "Asalka ama taariikhda qof ama shay." },
-    { english: "bad", maay: "xun" },
-    { english: "badge", maay: "Astaanta ama calaamada loo isticmaalo in lagu muujiyo darajo ama haybad gaar ah." },
-    { english: "bag", maay: "boorso" },
-    { english: "bake", maay: "dub" },
-    { english: "balance", maay: "isku dheelli tirnaanta wax, sida lacagta ama alaabta." },
-    { english: "ball", maay: "kubad" },
-    { english: "balloon", maay: "Wax caag ah oo la buufiyo oo u muuqda kubad hawada ku samaysan." },
-    { english: "banana", maay: "moos" },
-    { english: "band", maay: "Koox muusig ah ama wax lagu xidho, sida xadhig." },
-    { english: "bank", maay: "bangi" },
-    { english: "bar", maay: "makhaayad lagu cabo ama meel la isugu yimaado." },
-    { english: "barely", maay: "ku dhowaad aan jirin" },
-    { english: "bargain", maay: "Isku day inaad qiimaha ka dhinto wax aad iibsanayso." },
-    { english: "barrier", maay: "Xayndaab ama wax qof ama shay ka hor istaaga inuu gudbo." },
-    { english: "base", maay: "salka ama meesha hoose ee wax la dhiso." },
-    { english: "basic", maay: "waxyaabaha aasaasiga ah ama ugu fudud ee loo baahan yahay." },
-    { english: "basket", maay: "dambiil" },
-    { english: "bath", maay: "maydhasho" },
-    { english: "battery", maay: "Batariga ama qalabka tamarta kaydiya si uu koronto u bixiyo." },
-    { english: "battle", maay: "dagaal yar oo ka dhaca meel gaar ah" },
-    { english: "beach", maay: "xeebta" },
-    { english: "bear", maay: "dhiirrigeli in aad dhib ama culeys qaadato, ama xayawaanka bear." },
-    { english: "beautiful", maay: "qurux badan" },
-    { english: "because", maay: "sababo ah" },
-    { english: "become", maay: "noqon" },
-    { english: "bed", maay: "sariir" },
-    { english: "before", maay: "ka hor" },
-    { english: "begin", maay: "bilow" },
-    { english: "behavior", maay: "Hab-dhaqan ama sida qofku u dhaqmo." },
-    { english: "behind", maay: "gadaal" },
-    { english: "belief", maay: "Rumaysadka qofka uu qabo wax gaar ah ama mabda'." },
-    { english: "believe", maay: "rumeyso" },
-    { english: "bell", maay: "dawan" },
-    { english: "belong", maay: "ku saabsan" },
-    { english: "below", maay: "hoos" },
-    { english: "belt", maay: "Suunka la isku xidho ama dharka la dheereeyo." },
-    { english: "bench", maay: "kursi dheer oo laga sameeyay alwaax ama bir oo loogu talagalay in dadku ku fariistaan." },
-    { english: "benefit", maay: "faa'iido" },
-    { english: "beside", maay: "dhinaca" },
-    { english: "best", maay: "ugu fiican" },
-    { english: "bet", maay: "Shaki ama wax ku qamaarka si loo guuleysto lacag ama shay kale." },
-    { english: "better", maay: "ka fiican" },
-    { english: "between", maay: "dhexdooda" },
-    { english: "beyond", maay: "ka baxsan" },
-    { english: "big", maay: "weyn" },
-    { english: "bill", maay: "biil ama lacagta la bixiyo adeeg ama alaab kadib." },
-    { english: "bin", maay: "Weel ama sanduuq weyn oo lagu rido qashinka ama alaabta la isticmaalay." },
-    { english: "bird", maay: "shinbir" },
-    { english: "birth", maay: "dhalasho" },
-    { english: "bitter", maay: "Dhadhan qadhaadh leh ama wax dhib badan oo qof dareemayo." },
-    { english: "black", maay: "madow" },
-    { english: "blame", maay: "canaan" },
-    { english: "blank", maay: "Caday ama meel aan waxba ku qornayn." },
-    { english: "blanket", maay: "buste" },
-    { english: "blast", maay: "Qarax weyn ama hawada xoog ku socota oo ka dhalatay qarax." },
-    { english: "bless", maay: "barakeeyo" },
-    { english: "blind", maay: "indho la'" },
-    { english: "block", maay: "Xidho ama xannibo meel si wax uusan u dhaafin." },
-    { english: "blood", maay: "dhiig" },
-    { english: "blow", maay: "Quf ka imaanaya afka ama dabaysha oo xoog leh." },
-    { english: "blue", maay: "buluug" },
-    { english: "board", maay: "Guddi ka kooban xubno ama alwaax weyn oo wax lagu dhajiyo ama lagu dhiso." },
-    { english: "boat", maay: "doon" },
-    { english: "body", maay: "jir" },
-    { english: "boil", maay: "karkar ama biyaha karkari" },
-    { english: "bold", maay: "geesinimo ama cabsi la'aan" },
-    { english: "bomb", maay: "Bambada ama qalab wax qarxinaya oo dhibaato weyn keeni kara." },
-    { english: "bone", maay: "laf ka mid ah lafaha jidhka." },
-    { english: "book", maay: "buug" },
-    { english: "border", maay: "xadka u dhexeeya laba waddan ama laba meelood." },
-    { english: "borrow", maay: "ka amaah" },
-    { english: "both", maay: "labadaba" },
-    { english: "bottle", maay: "dhalo" },
-    { english: "bottom", maay: "hoos" },
-    { english: "boundary", maay: "Xuduud ama meelaha xadiday ee u dhexeeya laba goobood." },
-    { english: "bowl", maay: "Saxan ama weel qoto dheer oo wax lagu rido sida cunto." },
-    { english: "box", maay: "sanduuq" },
-    { english: "boy", maay: "wiil" },
-    { english: "brain", maay: "Maskaxda ama qaybta jidhka ee fikirka iyo xusuusta u qaabilsan." },
-    { english: "branch", maay: "laanta geedka ama qeyb ka mid ah hay’ad." },
-    { english: "brave", maay: "geesi" },
-    { english: "bread", maay: "rooti" },
-    { english: "break", maay: "jebin" },
-    { english: "breakfast", maay: "quraac" },
-    { english: "breathe", maay: "neefso" },
-    { english: "brick", maay: "dhagax yaryar oo la isticmaalo dhismaha." },
-    { english: "bridge", maay: "buundo" },
-    { english: "brief", maay: "Kooban ama gaaban." },
-    { english: "bright", maay: "iftiin badan ama ifaysa." },
-    { english: "bring", maay: "keen" },
-    { english: "broad", maay: "balaaran" },
-    { english: "broken", maay: "jebay ama wax la jebiyey." },
-    { english: "brother", maay: "walaal" },
-    { english: "brush", maay: "burushka" },
-    { english: "build", maay: "dhiso" },
-    { english: "building", maay: "Dhismaha ama guri ka samaysan dhagax ama shay adag." },
-    { english: "bulb", maay: "Qalabka yar oo nuur bixiya ama dhirta hoosteeda ku dhasha." },
-    { english: "burn", maay: "gubo" },
-    { english: "burst", maay: "qarax ama wax si degdeg ah u furan." },
-    { english: "bury", maay: "ku aas ama qodo." },
-    { english: "bus", maay: "Baska ama gaadhi weyn oo dad badan qaada." },
-    { english: "bush", maay: "Qurac yar ama dhir gaaban." },
-    { english: "business", maay: "Ganacsi ama shaqooyin lacag lagu samaynayo." },
-    { english: "busy", maay: "mashquulsan" },
-    { english: "but", maay: "laakiin" },
-    { english: "butter", maay: "subag" },
-    { english: "button", maay: "badhan ama qaybta loogu talagalay in wax lagu xidho ama lagu furo." },
-    { english: "buy", maay: "iibso" },
-    { english: "by", maay: "wax la sameeyo ama la ag maro." },
-    { english: "bypass", maay: "Laga gudbiyo ama meel la maro si looga fogaado jidka saxda ah." }
-];
+document.addEventListener('DOMContentLoaded', () => {
+    const wordList = document.getElementById('word-list');
+    const searchBar = document.getElementById('search-bar');
+    const searchButton = document.getElementById('search-button');
 
-const searchBar = document.getElementById('search-bar');
-const suggestionsContainer = document.getElementById('suggestions');
-
-// Ensure HTML elements exist
-if (!searchBar || !suggestionsContainer) {
-    console.error("Search bar or suggestions container not found in the HTML.");
-}
-
-// Search function with debouncing
-let debounceTimeout;
-searchBar.addEventListener('input', () => {
-    clearTimeout(debounceTimeout);
-    debounceTimeout = setTimeout(() => {
-        const query = searchBar.value.toLowerCase().trim();
-        suggestionsContainer.innerHTML = ''; // Clear suggestions
-
-        if (query) {
-            const filteredWords = dictionary.filter(
-                word => word.english.includes(query) || word.maay.includes(query)
-            );
-
-            filteredWords.forEach(word => {
-                const suggestion = document.createElement('div');
-                suggestion.classList.add('suggestion-item');
-                suggestion.textContent = `${word.english} - ${word.maay}`;
-                suggestion.addEventListener('click', () => {
-                    readWordAloud(word.english, word.maay);
-                    animateSelection(suggestion);
-                });
-                suggestionsContainer.appendChild(suggestion);
-            });
+    // Updated word list including the new words
+    const words = [
+        {
+            english: "Abandon",
+            maay: ["ku tabow", "gooyow"],
+            phonetics: ["koo-tah-boh", "goh-yoh"],
+            description: "To leave behind or forsake."
+        },
+        {
+            english: "Ability",
+            maay: ["karti", "awood"],
+            phonetics: ["kar-tee", "a-wood"],
+            description: "The power or skill to do something."
+        },
+        {
+            english: "Above",
+            maay: ["kor", "eleeng"],
+            phonetics: ["kor", "eh-leh-eng"],
+            description: "In a higher place or position."
+        },
+        {
+            english: "Abroad",
+            maay: ["dibadda", "qurba"],
+            phonetics: ["di-bad-da", "qur-ba"],
+            description: "In or to a foreign country."
+        },
+        {
+            english: "Absorb",
+            maay: ["dhuughow", "nuughow"],
+            phonetics: ["dhoo-go-how", "noo-go-how"],
+            description: "To soak up or take in."
+        },
+        {
+            english: "Adapt",
+            maay: ["la qabsow", "habey"],
+            phonetics: ["la-qab-soh", "ha-bey"],
+            description: "To adjust or change to suit a condition or environment."
+        },
+        {
+            english: "Ambition",
+            maay: ["hammuun", "riyo fog"],
+            phonetics: ["ham-moon", "ree-yo-fog"],
+            description: "A strong desire to achieve something."
+        },
+        {
+            english: "Anger",
+            maay: ["xanaaq", "caro"],
+            phonetics: ["xa-naaq", "ca-ro"],
+            description: "A strong feeling of annoyance or hostility."
+        },
+        {
+            english: "Analyze",
+            maay: ["falanqee", "baadhitaan samee"],
+            phonetics: ["fa-lan-qee", "baa-dhi-taan-sa-mee"],
+            description: "To examine or study something carefully."
+        },
+        {
+            english: "Ancient",
+            maay: ["hore", "waqti dheer kahor"],
+            phonetics: ["ho-re", "waq-ti-dheer-ka-hor"],
+            description: "Belonging to a very distant past."
+        },
+        {
+            english: "Avoid",
+            maay: ["iska ilaali", "ka fogow"],
+            phonetics: ["is-ka-i-laa-li", "ka-fo-go-w"],
+            description: "To stay away from something."
+        },
+        {
+            english: "Brave",
+            maay: ["geesi", "halyeey"],
+            phonetics: ["gee-see", "hal-yee-y"],
+            description: "Showing courage or facing danger without fear."
+        },
+        {
+            english: "Bright",
+            maay: ["iftiin leh", "dhallaalaya"],
+            phonetics: ["if-teen-leh", "dha-laa-la-ya"],
+            description: "Giving off a lot of light or intelligent."
+        },
+        {
+            english: "Build",
+            maay: ["dhisow", "samee"],
+            phonetics: ["dhi-soh", "sa-mee"],
+            description: "To construct or assemble something."
+        },
+        {
+            english: "Celebrate",
+            maay: ["dabaaldeg", "farxad samee"],
+            phonetics: ["da-baal-deg", "far-xad-sa-mee"],
+            description: "To mark a special occasion with activities or festivities."
+        },
+        {
+            english: "Change",
+            maay: ["bedel", "isku bedel"],
+            phonetics: ["be-del", "is-ku-be-del"],
+            description: "To make something different or become different."
+        },
+        {
+            english: "Cheer",
+            maay: ["farxad gelin", "dhacdhac"],
+            phonetics: ["far-xad-ge-lin", "dhaq-dhaq"],
+            description: "To shout for joy or encouragement."
+        },
+        {
+            english: "Clear",
+            maay: ["cad", "daahfuran"],
+            phonetics: ["cad", "daa-fu-ran"],
+            description: "Easy to understand or transparent."
+        },
+        {
+            english: "Cloud",
+            maay: ["daruur", "hoos u muuqasho"],
+            phonetics: ["da-ruur", "hoos-u-muu-qa-sho"],
+            description: "A visible mass of condensed water vapor in the sky."
         }
-    }, 300); // Debounce delay
+        // Add more words here as needed
+    ];
+
+    // Function to display words
+    function displayWords(data) {
+        wordList.innerHTML = ''; // Clear existing content
+        data.forEach(entry => {
+            const wordDiv = document.createElement('div');
+            wordDiv.classList.add('word-entry');
+
+            const wordHeader = document.createElement('h3');
+            wordHeader.textContent = entry.english;
+            wordDiv.appendChild(wordHeader);
+
+            const wordDetails = document.createElement('div');
+            wordDetails.classList.add('word-details');
+            wordDetails.innerHTML = `
+                <p><strong>Maay Words:</strong> ${entry.maay.join(', ')}</p>
+                <p><strong>Phonetics:</strong> ${entry.phonetics.join(', ')}</p>
+                <p><strong>Description:</strong> ${entry.description}</p>
+                <button class="audio-button">Play Audio</button>
+            `;
+
+            // Add audio functionality
+            const audioButton = wordDetails.querySelector('.audio-button');
+            audioButton.addEventListener('click', () => {
+                const msg = new SpeechSynthesisUtterance(
+                    `${entry.english}. Maay Words: ${entry.maay.join(', ')}. Phonetics: ${entry.phonetics.join(', ')}. Description: ${entry.description}`
+                );
+                window.speechSynthesis.speak(msg);
+            });
+
+            wordDiv.appendChild(wordDetails);
+            wordList.appendChild(wordDiv);
+        });
+    }
+
+    // Search functionality
+    function searchWords() {
+        const query = searchBar.value.toLowerCase();
+        const filteredWords = words.filter(
+            word =>
+                word.english.toLowerCase().includes(query) ||
+                word.maay.some(m => m.toLowerCase().includes(query))
+        );
+        displayWords(filteredWords);
+    }
+
+    searchButton.addEventListener('click', searchWords);
+    searchBar.addEventListener('input', searchWords);
+
+    // Display all words initially
+    displayWords(words);
 });
-
-// Text-to-speech function
-function readWordAloud(english, maay) {
-    const textToRead = `English: ${english}, Maay: ${maay}`;
-    const speech = new SpeechSynthesisUtterance(textToRead);
-    speech.lang = 'en-US';
-    window.speechSynthesis.speak(speech);
-}
-
-// Animation for selection
-function animateSelection(element) {
-    element.style.background = "#00ff00";
-    element.style.color = "#1a1a2e";
-    setTimeout(() => {
-        element.style.background = "";
-        element.style.color = "#00ffc3";
-    }, 500);
-}
