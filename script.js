@@ -1,9 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const wordList = document.getElementById('word-list');
-    const searchBar = document.getElementById('search-bar');
-
-    // Centralized word list
-    const words = [
+// Centralized word list
+const words = [
   {
     "english": "Abandon",
     "maay": ["ku tabow", "gooyow"],
@@ -177,70 +173,66 @@ document.addEventListener('DOMContentLoaded', () => {
     "maay": ["moos"],
     "phonetics": ["moh-uus"],
     "description": "A long, curved fruit with a yellow skin."
-  },
-    ];
+  }
+];
 
-    // Display words dynamically
-    function displayWords(data) {
-        wordList.innerHTML = ''; // Clear current list
-        data.forEach(word => {
-            const wordEntry = document.createElement('div');
-            wordEntry.classList.add('word-entry');
-            wordEntry.innerHTML = `
-                <h3>${word.english}</h3>
-                <div class="word-details">
-                    <p><strong>Maay Words:</strong> ${word.maay.join(', ')}</p>
-                    <p><strong>Phonetics:</strong> ${word.phonetics.join(', ')}</p>
-                    <p><strong>Description:</strong> ${word.description}</p>
-                    <button class="audio-button">
-                        Play Pronunciation & Meaning
-                    </button>
-                </div>
-            `;
+// Display words dynamically
+function displayWords(data) {
+  const wordList = document.getElementById('word-list');
+  wordList.innerHTML = ''; // Clear current list
 
-            // Add event listener for Text-to-Speech button
-            wordEntry.querySelector('.audio-button').addEventListener('click', () => {
-                readText(word);
-            });
+  data.forEach(word => {
+    const wordEntry = document.createElement('div');
+    wordEntry.classList.add('word-entry');
+    wordEntry.innerHTML = `
+      <h3>${word.english}</h3>
+      <div class="word-details">
+        <p><strong>Maay Words:</strong> ${word.maay.join(', ')}</p>
+        <p><strong>Phonetics:</strong> ${word.phonetics.join(', ')}</p>
+        <p><strong>Description:</strong> ${word.description}</p>
+        <button class="audio-button">Play Pronunciation & Meaning</button>
+      </div>
+    `;
+    
+    // Add event listener for Text-to-Speech button
+    wordEntry.querySelector('.audio-button').addEventListener('click', () => {
+      readText(word);
+    });
+    
+    wordList.appendChild(wordEntry);
+  });
+}
 
-            wordList.appendChild(wordEntry);
-        });
-    }
+// Text-to-Speech function
+function readText(word) {
+  const synth = window.speechSynthesis;
+  const textToRead = `
+    The English word is ${word.english}.
+    The Maay translation is ${word.maay.join(', ')}.
+    The phonetics are ${word.phonetics.join(', ')}.
+    Description: ${word.description}.
+  `;
+  
+  // Create a new speech synthesis utterance
+  const utterance = new SpeechSynthesisUtterance(textToRead);
+  utterance.lang = "en-US";  // Adjust language as needed
+  utterance.rate = 0.9;      // Adjust speaking speed
+  utterance.pitch = 1;       // Adjust pitch
+  
+  // Speak the text
+  synth.speak(utterance);
+}
 
-    // Text-to-Speech function
-    function readText(word) {
-        const synth = window.speechSynthesis;
-
-        // Construct the text to be read
-        const textToRead = `
-            The English word is ${word.english}.
-            The Maay translation is ${word.maay.join(', ')}.
-            The phonetics are ${word.phonetics.join(', ')}.
-            Description: ${word.description}.
-        `;
-
-        // Create a new speech synthesis utterance
-        const utterance = new SpeechSynthesisUtterance(textToRead);
-        utterance.lang = "en-US"; // Adjust language as needed
-        utterance.rate = 0.9; // Adjust speaking speed
-        utterance.pitch = 1; // Adjust pitch
-
-        // Speak the text
-        synth.speak(utterance);
-    }
-
-    // Filter words based on search query
-    function filterWords() {
-        const query = searchBar.value.toLowerCase();
-        const filteredWords = words.filter(word =>
-            word.english.toLowerCase().includes(query) ||
-            word.maay.some(maayWord => maayWord.toLowerCase().includes(query))
-        );
-        displayWords(filteredWords);
-    }
-
-    searchBar.addEventListener('input', filterWords);
-
-    // Display all words on page load
-    displayWords(words);
+// Filter words based on search query
+const searchBar = document.getElementById('search-bar');
+searchBar.addEventListener('input', function() {
+  const searchQuery = searchBar.value.toLowerCase();
+  const filteredWords = words.filter(word => {
+    return word.english.toLowerCase().includes(searchQuery) ||
+           word.maay.some(maayWord => maayWord.toLowerCase().includes(searchQuery));
+  });
+  displayWords(filteredWords);
 });
+
+// Initialize with all words
+displayWords(words);
