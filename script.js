@@ -20,8 +20,8 @@ const words = [
   },
   {
     "english": "Abundant",
-    "maay": ["bathan", "awood bathan"],
-    "phonetics": ["bah-zun, "a-wood-bah-zun"],
+    "maay": ["bathan"],
+    "phonetics": ["bah-zun,"],
     "description": "Existing in large quantities or more than enough."
   },
   {
