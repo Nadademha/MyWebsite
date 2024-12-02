@@ -2,13 +2,13 @@
 const words = [
   {
     "english": "Abandon",
-    "maay": ["ku tabow", "gooyow"],
-    "phonetics": ["koo-ta-boh", "goh-yoh"],
+    "maay": ["katag", "dhaaf"],
+    "phonetics": ["kah-tag", "dhaaf"],
     "description": "To leave behind or forsake."
   },
   {
     "english": "Ability",
-    "maay": ["karti", "awood"],
+    "maay": ["kart", "awood"],
     "phonetics": ["kar-tee", "a-wood"],
     "description": "The power or skill to do something."
   },
@@ -20,50 +20,50 @@ const words = [
   },
   {
     "english": "Abundant",
-    "maay": ["badnaan", "awood badan"],
-    "phonetics": ["bad-naan", "a-wood-ba-dan"],
+    "maay": ["bathan", "awood bathan"],
+    "phonetics": ["bah-zun, "a-wood-bah-zun"],
     "description": "Existing in large quantities or more than enough."
   },
   {
     "english": "Accept",
-    "maay": ["agbalow", "oggolaathow"],
-    "phonetics": ["ag-ba-low", "og-go-la-thow"],
+    "maay": ["akbal", "ogolaath"],
+    "phonetics": ["ak-bal", "oh-go-laath"],
     "description": "To agree to take or approve."
   },
   {
     "english": "Accident",
-    "maay": ["shil", "musiibo"],
+    "maay": ["shil", "musiibo", "qarash"],
     "phonetics": ["shil", "mu-see-bo"],
     "description": "An unplanned or unexpected event."
   },
   {
     "english": "Activity",
-    "maay": ["ficil", "dhaqdhaqaaq"],
-    "phonetics": ["fi-cil", "dhaq-dha-qaaq"],
+    "maay": ["ficil", "dhaqdhagaaq"],
+    "phonetics": ["fih-il", "dhaq-dha-gaaq"],
     "description": "Something that is done for enjoyment or work."
   },
   {
     "english": "Add",
-    "maay": ["ku dar", "isku darid"],
-    "phonetics": ["ku-dar", "is-ku-da-rid"],
+    "maay": ["ka dar", "iska dar"],
+    "phonetics": ["ka-dar", "is-ka-dar"],
     "description": "To combine or include something."
   },
   {
     "english": "Adventure",
-    "maay": ["halis", "safar xiise leh"],
-    "phonetics": ["ha-lis", "sa-far-khee-se-leh"],
+    "maay": ["halis", "safar"],
+    "phonetics": ["ha-lis", "sa-far"],
     "description": "An exciting or daring experience."
   },
   {
     "english": "Affection",
-    "maay": ["jeelang", "ing roonang"],
-    "phonetics": ["jee-lang", "ing-roo-nang"],
+    "maay": ["jeelang", "ing runey"],
+    "phonetics": ["jee-lang", "ing-ru-ney"],
     "description": "A feeling of love or fondness."
   },
   {
     "english": "Afternoon",
-    "maay": ["galab", "galabtii"],
-    "phonetics": ["ga-lab", "ga-lab-tee"],
+    "maay": ["galab"],
+    "phonetics": ["ga-lab"],
     "description": "The time between noon and evening."
   },
   {
@@ -74,56 +74,56 @@ const words = [
   },
   {
     "english": "Apple",
-    "maay": ["tufaax", "miraha cas"],
-    "phonetics": ["tu-faax", "mi-ra-ha-cas"],
+    "maay": ["tufa"],
+    "phonetics": ["tu-fa"],
     "description": "A round fruit with red, green, or yellow skin."
   },
   {
     "english": "Art",
-    "maay": ["farshaxan", "fanka"],
-    "phonetics": ["far-sha-xan", "fan-ka"],
+    "maay": ["farshahan", "choor"],
+    "phonetics": ["far-sha-han", "choor"],
     "description": "Creative work in painting, music, literature, etc."
   },
   {
     "english": "Ask",
-    "maay": ["weydii", "su’aal bixi"],
-    "phonetics": ["wey-dhee", "su-aa-bih-shee"],
+    "maay": ["weydii", "su’aal bihi"],
+    "phonetics": ["wey-dhee", "su-aal-bih-hee"],
     "description": "To inquire or request information."
   },
   {
     "english": "Assist",
-    "maay": ["caawi", "gargaar"],
-    "phonetics": ["caa-wee", "gar-gaar"],
+    "maay": ["aawi", "gargaar"],
+    "phonetics": ["aa-wee", "gar-gaar"],
     "description": "To help or aid someone."
   },
   {
     "english": "Assume",
-    "maay": ["malayac", "qaadan"],
-    "phonetics": ["ma-la-yac", "qaa-dan"],
+    "maay": ["maleey", "qaadan"],
+    "phonetics": ["ma-lehy", "qaa-dan"],
     "description": "To suppose something to be true without proof."
   },
   {
     "english": "Attack",
-    "maay": ["weerar", "soo weerar"],
-    "phonetics": ["wee-rar", "soo-wee-rar"],
+    "maay": ["weerar", "sa tung"],
+    "phonetics": ["wee-rar", "sa-tung"],
     "description": "To take aggressive action against someone or something."
   },
   {
     "english": "Attention",
-    "maay": ["fiiro gaar ah", "xiiso"],
-    "phonetics": ["fii-ro-gar-ah", "xi-so"],
+    "maay": ["firi", "hiiso"],
+    "phonetics": ["fii-ri", "hi-so"],
     "description": "Focusing awareness on something."
   },
   {
     "english": "Authority",
-    "maay": ["awood", "xukun"],
-    "phonetics": ["a-wood", "xu-kun"],
+    "maay": ["awood", "hukun"],
+    "phonetics": ["a-wood", "hu-kun"],
     "description": "The power or right to give orders or make decisions."
   },
   {
     "english": "Available",
-    "maay": ["diyaar", "muuruxsan"],
-    "phonetics": ["di-yaar", "moo-ru-hsan"],
+    "maay": ["diyaar", "banaas ley"],
+    "phonetics": ["di-yaar", "bah-naas-leh"],
     "description": "Ready for use or at hand."
   },
   {
@@ -134,14 +134,14 @@ const words = [
   },
   {
     "english": "Back",
-    "maay": ["dhabar", "dib"],
-    "phonetics": ["dha-bar", "dib"],
+    "maay": ["dhabar", "dhoong"],
+    "phonetics": ["dha-bar", "dhoong"],
     "description": "The rear part of the body or something at the rear."
   },
   {
     "english": "Bad",
-    "maay": ["hun", "khaldan"],
-    "phonetics": ["xun", "khal-dan"],
+    "maay": ["hun", "qaldam"],
+    "phonetics": ["hun", "qal-dam"],
     "description": "Not good in quality, condition, or behavior."
   },
   {
@@ -152,20 +152,20 @@ const words = [
   },
   {
     "english": "Bake",
-    "maay": ["dub", "samee keeg"],
-    "phonetics": ["dub", "sa-mee-keeg"],
+    "maay": ["dub"],
+    "phonetics": ["dub"],
     "description": "To cook in an oven."
   },
   {
     "english": "Balance",
-    "maay": ["isku dheeli tirid", "miisaaman"],
-    "phonetics": ["is-ku-dhee-li-ti-rid", "mii-saa-man"],
+    "maay": ["mizameey"],
+    "phonetics": ["mii-za-meey"],
     "description": "A state where different elements are equal or in proportion."
   },
   {
     "english": "Ball",
-    "maay": ["kubad", "baloon"],
-    "phonetics": ["ku-bad", "bah-loan"],
+    "maay":"baloon"],
+    "phonetics": "bah-lown"],
     "description": "A round object used in sports or play."
   },
   {
