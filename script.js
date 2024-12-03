@@ -2360,8 +2360,8 @@ const words = [
 },
 {
   "english": "Increase",
-  "maay": ["kordhin", "sii badan", "horumar"],
-  "phonetics": ["kor-dhin", "sii ba-dan", "ho-ru-mar"],
+  "maay": ["kisiidar", "sii badan", "horumar"],
+  "phonetics": ["kee-see-dar", "sii ba-dan", "ho-ru-mar"],
   "description": "To make or become greater in size, amount, or degree."
 },
 {
@@ -3011,6 +3011,1368 @@ const words = [
   "maay": ["waa in", "lama huraan", "shuruud"],
   "phonetics": ["waa in", "la-ma hu-raan", "shu-ruud"],
   "description": "To be obliged or required to do something because it is necessary or important."
+},
+{
+  "english": "Name",
+  "maay": ["magac", "laqab", "sumad"],
+  "phonetics": ["ma-gac", "la-qab", "su-mad"],
+  "description": "A word or set of words by which a person, animal, place, or thing is known."
+},
+{
+  "english": "Nation",
+  "maay": ["qaran", "wadan", "umad"],
+  "phonetics": ["qa-ran", "wa-dan", "u-mad"],
+  "description": "A large group of people united by common descent, culture, or language, inhabiting a particular country."
+},
+{
+  "english": "Natural",
+  "maay": ["dabiici", "ilaahey u sameeyay", "aan farsamo ahayn"],
+  "phonetics": ["da-bi-i-ci", "i-laa-hey u sa-mee-yay", "aan far-sa-mo a-hayn"],
+  "description": "Existing in or caused by nature; not made or caused by humankind."
+},
+{
+  "english": "Near",
+  "maay": ["ugu dhow", "ku dhow", "meel u dhow"],
+  "phonetics": ["u-gu dhow", "ku dhow", "meel u dhow"],
+  "description": "At a short distance away or close in proximity."
+},
+{
+  "english": "Necessary",
+  "maay": ["lama huraan", "muhiim", "lagama maarmaan"],
+  "phonetics": ["la-ma hu-raan", "mu-hiim", "la-ga-ma maar-maan"],
+  "description": "Required to be done, achieved, or present; essential."
+},
+{
+  "english": "Need",
+  "maay": ["baahi", "u baahan", "shuruud"],
+  "phonetics": ["baa-hi", "u baa-han", "shu-ruud"],
+  "description": "To require something because it is essential or important."
+},
+{
+  "english": "Neighbor",
+  "maay": ["deris", "qof ku dhow", "jaarka"],
+  "phonetics": ["de-ris", "qof ku dhow", "jaa-rka"],
+  "description": "A person living near or next to another."
+},
+{
+  "english": "Never",
+  "maay": ["marnaba", "abid", "weligaa ma jiro"],
+  "phonetics": ["mar-na-ba", "a-bid", "we-li-gaa ma ji-ro"],
+  "description": "At no time in the past or future; not ever."
+},
+{
+  "english": "New",
+  "maay": ["cusub", "dhawaan", "aan hore u jirin"],
+  "phonetics": ["cu-sub", "dha-waan", "aan ho-re u ji-rin"],
+  "description": "Not existing before; made, introduced, or discovered recently."
+},
+{
+  "english": "Next",
+  "maay": ["ku xiga", "kadib", "soo socda"],
+  "phonetics": ["ku xi-ga", "ka-dib", "soo soc-da"],
+  "description": "Coming immediately after the present one in time or order."
+},
+{
+  "english": "Night",
+  "maay": ["habeen", "waqti madow", "habeynkii"],
+  "phonetics": ["ha-been", "waq-ti ma-dow", "ha-beyn-kii"],
+  "description": "The time from sunset to sunrise when it is dark."
+},
+{
+  "english": "Noise",
+  "maay": ["buuq", "cod sare", "qeylo"],
+  "phonetics": ["buu-q", "cod sa-re", "qey-lo"],
+  "description": "A sound, especially one that is loud or unpleasant."
+},
+{
+  "english": "North",
+  "maay": ["waqooyi", "jiho waqooyi", "cirifka waqooyi"],
+  "phonetics": ["wa-qoo-yi", "ji-ho wa-qoo-yi", "ci-rif-ka wa-qoo-yi"],
+  "description": "The direction in which the compass needle points."
+},
+{
+  "english": "Nothing",
+  "maay": ["waxba ma jirto", "eber", "aysan jirin"],
+  "phonetics": ["wax-ba ma jir-to", "e-ber", "ay-san ji-rin"],
+  "description": "Not anything; no single thing."
+},
+{
+  "english": "Notice",
+  "maay": ["ogeysiis", "fiirso", "digniin"],
+  "phonetics": ["o-gey-siis", "fii-rso", "dig-niin"],
+  "description": "Attention given to something or someone; a formal announcement."
+},
+{
+  "english": "Number",
+  "maay": ["lambar", "tirada", "qaddar"],
+  "phonetics": ["lam-bar", "ti-ra-da", "qad-dar"],
+  "description": "An arithmetical value, used to count or measure."
+},
+{
+  "english": "Nurse",
+  "maay": ["kalkaaliye", "dhaqaale daryeel", "mid caafimaad"],
+  "phonetics": ["kal-kaa-li-ye", "dha-qaa-le da-ryeel", "mid caa-fi-maad"],
+  "description": "A person trained to care for the sick or infirm."
+},
+{
+  "english": "Object",
+  "maay": ["shay", "walax", "u-jeeddo"],
+  "phonetics": ["shay", "wa-lax", "u-jeed-do"],
+  "description": "A material thing that can be seen and touched or a goal."
+},
+{
+  "english": "Observe",
+  "maay": ["fiirso", "ilaali", "ogow"],
+  "phonetics": ["fii-rso", "i-laa-li", "o-gow"],
+  "description": "To notice or perceive something and register it as significant."
+},
+{
+  "english": "Occur",
+  "maay": ["dhac", "soo muuqasho", "dhaco"],
+  "phonetics": ["dhac", "soo muu-qa-sho", "dha-co"],
+  "description": "To happen or take place."
+},
+{
+  "english": "Ocean",
+  "maay": ["badweyn", "badda weyn", "dareenka biyaha"],
+  "phonetics": ["bad-weyn", "bad-da weyn", "da-reen-ka bi-ya-ha"],
+  "description": "A very large expanse of sea."
+},
+{
+  "english": "Offer",
+  "maay": ["soo bandhigid", "u soo jeedin", "bixin"],
+  "phonetics": ["soo ban-dhi-gid", "u soo jee-din", "bi-xin"],
+  "description": "To present or propose something for acceptance."
+},
+{
+  "english": "Office",
+  "maay": ["xafiis", "meel shaqo", "qolka maamulka"],
+  "phonetics": ["xa-fiis", "meel sha-qo", "qol-ka maa-mul-ka"],
+  "description": "A place where business or professional work is conducted."
+},
+{
+  "english": "Often",
+  "maay": ["marar badan", "sii joogto ah", "markasta"],
+  "phonetics": ["ma-rar ba-dan", "sii joo-gto ah", "mar-kas-ta"],
+  "description": "Frequently or many times."
+},
+{
+  "english": "Oil",
+  "maay": ["saliid", "shidaal", "dareer"],
+  "phonetics": ["sa-liid", "shi-daal", "da-reer"],
+  "description": "A liquid derived from petroleum or plants, used for fuel or cooking."
+},
+{
+  "english": "Old",
+  "maay": ["duq", "hore", "gaboobay"],
+  "phonetics": ["duq", "ho-re", "ga-boo-bay"],
+  "description": "Having lived for a long time or no longer new."
+},
+{
+  "english": "On",
+  "maay": ["kor", "saaraan", "dul saaran"],
+  "phonetics": ["kor", "saa-raan", "dul saa-ran"],
+  "description": "Physically in contact with and supported by a surface."
+},
+{
+  "english": "Once",
+  "maay": ["hal mar", "hore", "markii hore"],
+  "phonetics": ["hal mar", "ho-re", "mar-kii ho-re"],
+  "description": "On one occasion or at some time in the past."
+},
+{
+  "english": "One",
+  "maay": ["mid", "hal", "ugu horeeya"],
+  "phonetics": ["mid", "hal", "u-gu ho-ree-ya"],
+  "description": "The number equivalent to a single unit."
+},
+{
+  "english": "Only",
+  "maay": ["kaliya", "xadka", "qofka keli ah"],
+  "phonetics": ["ka-li-ya", "xad-ka", "qof-ka ke-li ah"],
+  "description": "No one or nothing more besides."
+},
+{
+  "english": "Open",
+  "maay": ["furid", "u furid", "aan xidhnayn"],
+  "phonetics": ["fu-rid", "u fu-rid", "aan xidhnayn"],
+  "description": "Allowing access, passage, or view; not closed."
+},
+{
+  "english": "Opinion",
+  "maay": ["aragtida", "fikrad", "ra’yi"],
+  "phonetics": ["a-rag-ti-da", "fik-rad", "ra-yi"],
+  "description": "A view or judgment formed about something."
+},
+{
+  "english": "Opportunity",
+  "maay": ["fursad", "kheyraad", "dhacdo wanaagsan"],
+  "phonetics": ["fur-sad", "khey-raad", "dhac-do waa-naag-san"],
+  "description": "A set of circumstances that makes something possible."
+},
+{
+  "english": "Order",
+  "maay": ["amar", "habeyn", "nidaam"],
+  "phonetics": ["a-mar", "ha-beyn", "ni-daam"],
+  "description": "An authoritative direction or arrangement."
+},
+{
+  "english": "Organize",
+  "maay": ["habee", "soo diyaarin", "qorshe"],
+  "phonetics": ["ha-bee", "soo di-yaa-rin", "qor-she"],
+  "description": "To arrange or put in order."
+},
+{
+  "english": "Other",
+  "maay": ["mid kale", "dhinac kale", "ka duwan"],
+  "phonetics": ["mid ka-le", "dhi-nac ka-le", "ka du-wan"],
+  "description": "A person or thing that is different or distinct."
+},
+{
+  "english": "Out",
+  "maay": ["dibadda", "ka bax", "bananka"],
+  "phonetics": ["di-bad-da", "ka bax", "ba-nan-ka"],
+  "description": "Moving or appearing beyond an enclosure or space."
+},
+{
+  "english": "Over",
+  "maay": ["kor u dhaaf", "ka badan", "dusha sare"],
+  "phonetics": ["kor u dhaaf", "ka ba-dan", "du-sha sa-re"],
+  "description": "Extending directly upward or covering above."
+},
+{
+  "english": "Own",
+  "maay": ["leeyahay", "isku leeyahay", "milki"],
+  "phonetics": ["lee-ya-hay", "is-ku lee-ya-hay", "mil-ki"],
+  "description": "Belonging to oneself or itself."
+},
+{
+  "english": "Page",
+  "maay": ["bog", "waraaq", "cutub"],
+  "phonetics": ["bog", "wa-raaq", "cu-tub"],
+  "description": "One side of a sheet of paper in a book, magazine, or notebook."
+},
+{
+  "english": "Paint",
+  "maay": ["rinji", "midabeeyn", "sawirid"],
+  "phonetics": ["rin-ji", "mi-da-beeyn", "sa-wi-rid"],
+  "description": "A colored substance spread over a surface for decoration or protection."
+},
+{
+  "english": "Pair",
+  "maay": ["labo", "isku mid ah", "lamaane"],
+  "phonetics": ["la-bo", "is-ku mid ah", "la-maa-ne"],
+  "description": "Two corresponding items designed to be used together."
+},
+{
+  "english": "Paper",
+  "maay": ["waraaq", "xaashi", "document"],
+  "phonetics": ["wa-raaq", "xaa-shi", "docu-ment"],
+  "description": "Thin sheets used for writing, printing, or packaging."
+},
+{
+  "english": "Parent",
+  "maay": ["waalid", "hooyo ama aabe", "korinta waalidka"],
+  "phonetics": ["waa-lid", "hoo-yo a-ma aa-be", "ko-rin-ta waa-lid-ka"],
+  "description": "A father or mother of a child."
+},
+{
+  "english": "Part",
+  "maay": ["qayb", "juz", "goob ka mid ah"],
+  "phonetics": ["qayb", "juz", "goob ka mid ah"],
+  "description": "A piece or portion of a whole."
+},
+{
+  "english": "Pass",
+  "maay": ["mari", "dhaafid", "gudbid"],
+  "phonetics": ["ma-ri", "dhaa-fid", "gud-bid"],
+  "description": "To move or travel from one place to another."
+},
+{
+  "english": "Past",
+  "maay": ["waqti hore", "sooyaal", "hore"],
+  "phonetics": ["waq-ti ho-re", "soo-yaal", "ho-re"],
+  "description": "The time or a period of time before the present."
+},
+{
+  "english": "Path",
+  "maay": ["jid", "wadada", "talaabooyin"],
+  "phonetics": ["jid", "wa-da-da", "ta-laa-boo-yin"],
+  "description": "A way or track laid down for walking or traveling."
+},
+{
+  "english": "Pay",
+  "maay": ["lacag bixid", "mushaar", "bixin"],
+  "phonetics": ["la-cag bi-xid", "mu-shaar", "bi-xin"],
+  "description": "To give money for work done or for something bought."
+},
+{
+  "english": "Peace",
+  "maay": ["nabadda", "degganaansho", "xasillooni"],
+  "phonetics": ["na-bad-da", "deg-ga-naan-sho", "xa-sil-loo-ni"],
+  "description": "Freedom from disturbance; tranquility."
+},
+{
+  "english": "People",
+  "maay": ["dad", "shacabka", "umad"],
+  "phonetics": ["dad", "shac-ab-ka", "u-mad"],
+  "description": "Human beings in general or a group of individuals."
+},
+{
+  "english": "Perform",
+  "maay": ["fulin", "sameyn", "bandhig"],
+  "phonetics": ["fu-lin", "sa-meyn", "ban-dhig"],
+  "description": "To carry out, accomplish, or produce a task or action."
+},
+{
+  "english": "Person",
+  "maay": ["qof", "shakhsi", "ruux"],
+  "phonetics": ["qof", "shakh-si", "ruux"],
+  "description": "An individual human being."
+},
+{
+  "english": "Place",
+  "maay": ["goob", "meel", "jid"],
+  "phonetics": ["goob", "meel", "jid"],
+  "description": "A particular position, point, or location."
+},
+{
+  "english": "Plan",
+  "maay": ["qorshe", "talaabooyin", "arjiga"],
+  "phonetics": ["qor-she", "ta-laa-boo-yin", "ar-ji-ga"],
+  "description": "A detailed proposal for achieving something."
+},
+{
+  "english": "Plant",
+  "maay": ["geed", "dhirtan", "dhaxdhaxaad"],
+  "phonetics": ["geed", "dhir-tan", "dhax-dhax-aad"],
+  "description": "A living organism that grows in the ground and typically produces leaves or flowers."
+},
+{
+  "english": "Play",
+  "maay": ["ciyaar", "madadaalo", "soo bandhigid"],
+  "phonetics": ["ci-yaar", "ma-da-daa-lo", "soo ban-dhi-gid"],
+  "description": "To engage in activity for enjoyment or recreation."
+},
+{
+  "english": "Please",
+  "maay": ["fadlan", "farxad geli", "codsasho"],
+  "phonetics": ["fad-lan", "far-xad ge-li", "cod-sa-sho"],
+  "description": "Used as a polite addition to requests or to make someone happy."
+},
+{
+  "english": "Point",
+  "maay": ["meel", "barta muhiimka ah", "tusmo"],
+  "phonetics": ["meel", "bar-ta mu-hiim-ka ah", "tus-mo"],
+  "description": "A specific spot or place; to indicate something with a gesture."
+},
+{
+  "english": "Police",
+  "maay": ["boolis", "ciidamada nabadgelyada", "ilaaliyaha sharciga"],
+  "phonetics": ["boo-lis", "cii-da-ma-da na-bad-ge-ly-a-da", "i-laa-li-ya-ha shar-ci-ga"],
+  "description": "The civil force responsible for maintaining public order and safety."
+},
+{
+  "english": "Poor",
+  "maay": ["fakir", "sabuul", "heer hoose"],
+  "phonetics": ["fa-kir", "sa-buul", "heer hoo-se"],
+  "description": "Lacking sufficient money or having a low standard of living."
+},
+{
+  "english": "Popular",
+  "maay": ["caan ah", "la jecel yahay", "dadka raacsan"],
+  "phonetics": ["caan ah", "la je-cel ya-hay", "dad-ka raac-san"],
+  "description": "Liked or admired by many people."
+},
+{
+  "english": "Possible",
+  "maay": ["suurtagal", "macquul ah", "uur ka furan"],
+  "phonetics": ["suur-ta-gal", "mac-quul ah", "uur ka fu-ran"],
+  "description": "Able to be done or achieved."
+},
+{
+  "english": "Power",
+  "maay": ["awood", "tamarta", "xoog"],
+  "phonetics": ["a-wood", "ta-mar-ta", "xoog"],
+  "description": "The ability or capacity to do something or act in a particular way."
+},
+{
+  "english": "Practice",
+  "maay": ["tababar", "ku celcelin", "iska baro"],
+  "phonetics": ["ta-ba-bar", "ku cel-ce-lin", "is-ka ba-ro"],
+  "description": "The repeated exercise of an activity to improve a skill."
+},
+{
+  "english": "Prepare",
+  "maay": ["diyaarso", "soo diyaarin", "u gogol xaarid"],
+  "phonetics": ["di-yaa-rso", "soo di-yaa-rin", "u go-gol xaa-rid"],
+  "description": "To make ready for use or consideration."
+},
+{
+  "english": "Present",
+  "maay": ["hadiyadda", "soo bandhigid", "joogitaanka"],
+  "phonetics": ["ha-diy-ad-da", "soo ban-dhi-gid", "joo-gi-taan-ka"],
+  "description": "Existing or happening now; a gift."
+},
+{
+  "english": "Press",
+  "maay": ["cadaadis", "riixid", "warbaahin"],
+  "phonetics": ["ca-daa-dis", "rii-xid", "war-baa-hin"],
+  "description": "To apply force to something; media organizations."
+},
+{
+  "english": "Price",
+  "maay": ["qiimo", "lacagta iibka", "kharash"],
+  "phonetics": ["qii-mo", "la-cag-ta iib-ka", "kha-rash"],
+  "description": "The amount of money expected, required, or given for something."
+},
+{
+  "english": "Pride",
+  "maay": ["faanka", "kibrid", "sharaf"],
+  "phonetics": ["faan-ka", "ki-brid", "sha-raf"],
+  "description": "A feeling of deep satisfaction derived from one's achievements."
+},
+{
+  "english": "Private",
+  "maay": ["qarsoodi", "gaarka ah", "shakhsi"],
+  "phonetics": ["qar-soo-di", "gaar-ka ah", "shakh-si"],
+  "description": "Belonging to or for the use of one particular person or group."
+},
+{
+  "english": "Problem",
+  "maay": ["dhibaatada", "arrin", "mushkilad"],
+  "phonetics": ["dhi-baa-ta-da", "ar-rin", "mush-ki-lad"],
+  "description": "A matter or situation regarded as unwelcome or harmful."
+},
+{
+  "english": "Process",
+  "maay": ["habsocod", "nidaam", "tallaabooyin"],
+  "phonetics": ["hab-so-cod", "ni-daam", "tal-laa-boo-yin"],
+  "description": "A series of actions taken to achieve a particular end."
+},
+{
+  "english": "Produce",
+  "maay": ["soo saar", "abuurid", "wax soo saar"],
+  "phonetics": ["soo saar", "a-buu-rid", "wax soo saar"],
+  "description": "To create or bring forth goods or results."
+},
+{
+  "english": "Product",
+  "maay": ["wax soo saar", "alaabta", "natiijo"],
+  "phonetics": ["wax soo saar", "a-laab-ta", "na-tiijo"],
+  "description": "An item that is manufactured or refined for sale."
+},
+{
+  "english": "Protect",
+  "maay": ["ilaali", "difaac", "badbaadi"],
+  "phonetics": ["i-laa-li", "di-faac", "bad-baa-di"],
+  "description": "To keep safe from harm or injury."
+},
+{
+  "english": "Provide",
+  "maay": ["bixi", "soo bandhigid", "u keenid"],
+  "phonetics": ["bi-xi", "soo ban-dhi-gid", "u kee-nid"],
+  "description": "To make available for use; supply."
+},
+{
+  "english": "Public",
+  "maay": ["dadweyne", "shacabka", "dadka oo dhan"],
+  "phonetics": ["dad-wey-ne", "shac-ab-ka", "dad-ka oo dhan"],
+  "description": "Relating to ordinary people or the community."
+},
+{
+  "english": "Purpose",
+  "maay": ["ujeeddo", "qorshaha", "bartilmaameed"],
+  "phonetics": ["u-jeed-do", "qor-sha-ha", "bar-til-maa-meed"],
+  "description": "The reason for which something is done or created."
+},
+{
+  "english": "Push",
+  "maay": ["riix", "tallaabo saar", "dhiirrigelin"],
+  "phonetics": ["riix", "tal-laa-bo saar", "dhiir-ri-ge-lin"],
+  "description": "To exert force on someone or something to move it forward."
+},
+{
+  "english": "Quality",
+  "maay": ["tayada", "heer sare", "sifada"],
+  "phonetics": ["ta-ya-da", "heer sa-re", "si-fa-da"],
+  "description": "The standard of something as measured against other things."
+},
+{
+  "english": "Quantity",
+  "maay": ["tirada", "qaddarka", "miisaanka"],
+  "phonetics": ["ti-ra-da", "qad-dar-ka", "mii-saan-ka"],
+  "description": "The amount or number of a material or thing."
+},
+{
+  "english": "Question",
+  "maay": ["su’aal", "weydiin", "xog doonid"],
+  "phonetics": ["su-aal", "wey-diin", "xog doo-nid"],
+  "description": "A sentence or phrase used to find out information."
+},
+{
+  "english": "Quick",
+  "maay": ["dhakhso", "degdeg ah", "soo dhaqsasho"],
+  "phonetics": ["dha-khso", "deg-deg ah", "soo dhaq-sa-sho"],
+  "description": "Moving fast or doing something in a short time."
+},
+{
+  "english": "Quiet",
+  "maay": ["aamusnaan", "deganaansho", "cod la’aan"],
+  "phonetics": ["aa-mus-naan", "de-ga-naan-sho", "cod la-aan"],
+  "description": "Making little or no noise."
+},
+{
+  "english": "Race",
+  "maay": ["tartanka", "qowmiyad", "dagaal orod"],
+  "phonetics": ["tar-tan-ka", "qow-mi-yad", "da-gaal o-rod"],
+  "description": "A competition of speed or a group of people sharing common ancestry."
+},
+{
+  "english": "Rain",
+  "maay": ["roob", "dabaylo roobaad", "biyaha cirka"],
+  "phonetics": ["roob", "da-bay-lo roo-baad", "bi-ya-ha cir-ka"],
+  "description": "Water that falls in drops from clouds in the sky."
+},
+{
+  "english": "Raise",
+  "maay": ["kor u qaadid", "soo jiid", "dhaqaajin"],
+  "phonetics": ["kor u qaa-did", "soo jiid", "dha-qa-ajin"],
+  "description": "To lift or move to a higher position or level."
+},
+{
+  "english": "Reach",
+  "maay": ["gaadhid", "soo gaarid", "taabsi"],
+  "phonetics": ["gaa-dhid", "soo gaa-rid", "taa-bsi"],
+  "description": "To arrive at or attain a goal or destination."
+},
+{
+  "english": "Read",
+  "maay": ["akhri", "waxbarasho", "qoraal fahmid"],
+  "phonetics": ["akh-ri", "wax-ba-ra-sho", "qo-raal fah-mid"],
+  "description": "To look at and comprehend the meaning of written or printed words."
+},
+{
+  "english": "Ready",
+  "maay": ["diyaar", "ku diyaarsan", "habeeyay"],
+  "phonetics": ["di-yaar", "ku di-yaa-san", "ha-bee-yay"],
+  "description": "Fully prepared or in a fit state for action."
+},
+{
+  "english": "Real",
+  "maay": ["runta", "xaqiiqo", "dhabta ah"],
+  "phonetics": ["run-ta", "xa-qii-qo", "dhab-ta ah"],
+  "description": "Actually existing as a thing or occurring in fact."
+},
+{
+  "english": "Reason",
+  "maay": ["sabab", "uleed", "tilmaamid"],
+  "phonetics": ["sa-bab", "u-leed", "til-maa-mid"],
+  "description": "A cause or explanation for an action or event."
+},
+{
+  "english": "Receive",
+  "maay": ["helid", "soo qaadid", "aqbalid"],
+  "phonetics": ["he-lid", "soo qaa-did", "aq-ba-lid"],
+  "description": "To be given, presented with, or paid something."
+},
+{
+  "english": "Recent",
+  "maay": ["dhowaan", "cusub", "waqti dhow"],
+  "phonetics": ["dho-waan", "cu-sub", "waq-ti dhow"],
+  "description": "Happening or coming not long ago."
+},
+{
+  "english": "Recognize",
+  "maay": ["aqoonsi", "garasho", "dareemo"],
+  "phonetics": ["aq-oon-si", "ga-ra-sho", "da-ree-mo"],
+  "description": "To identify someone or something from having encountered them before."
+},
+{
+  "english": "Record",
+  "maay": ["diwaan", "qoraal", "xusuus qorid"],
+  "phonetics": ["di-waan", "qo-raal", "xu-su-us qo-rid"],
+  "description": "A piece of evidence about the past, or the action of recording information."
+},
+{
+  "english": "Reduce",
+  "maay": ["yarayn", "dhimis", "hoos u dhigid"],
+  "phonetics": ["ya-rayn", "dhi-mis", "hoos u dhi-gid"],
+  "description": "To make smaller or less in amount, degree, or size."
+},
+{
+  "english": "Reflect",
+  "maay": ["ka fakarid", "muujin", "dib ugu milicsi"],
+  "phonetics": ["ka fa-ka-rid", "muu-jin", "dib u-gu mi-lic-si"],
+  "description": "To throw back light, heat, or sound; to think deeply."
+},
+{
+  "english": "Refuse",
+  "maay": ["diidmo", "ka hor istaagid", "iska caabin"],
+  "phonetics": ["diid-mo", "ka hor is-taa-gid", "is-ka caa-bin"],
+  "description": "To indicate or show that one is not willing to do something."
+},
+{
+  "english": "Region",
+  "maay": ["gobol", "aag", "deegaan"],
+  "phonetics": ["go-bol", "aag", "dee-gaan"],
+  "description": "An area of land or a part of the country or world."
+},
+{
+  "english": "Relation",
+  "maay": ["xiriir", "is dhexgal", "qoys wadaag"],
+  "phonetics": ["xi-riir", "is dhex-gal", "qoys wa-daa-g"],
+  "description": "The way in which two or more people or things are connected."
+},
+{
+  "english": "Remain",
+  "maay": ["iska joog", "sii ahaan", "meel ku sugnaansho"],
+  "phonetics": ["is-ka joog", "sii a-haan", "meel ku sug-naan-sho"],
+  "description": "To continue to exist or stay in the same place."
+},
+{
+  "english": "Remove",
+  "maay": ["ka saarid", "iska fogeeyn", "ka qaadid"],
+  "phonetics": ["ka saa-rid", "is-ka fo-ge-eyn", "ka qaa-did"],
+  "description": "To take away or eliminate something."
+},
+{
+  "english": "Repair",
+  "maay": ["dayactir", "hagaajin", "soo celin"],
+  "phonetics": ["da-yac-tir", "ha-gaa-jin", "soo ce-lin"],
+  "description": "To fix or restore something that is broken or damaged."
+},
+{
+  "english": "Repeat",
+  "maay": ["ku celcelin", "dib u sameyn", "ku sii wadid"],
+  "phonetics": ["ku cel-ce-lin", "dib u sa-meyn", "ku sii wa-did"],
+  "description": "To do or say something again."
+},
+{
+  "english": "Replace",
+  "maay": ["bedelid", "ku soo bedel", "meel kale dhig"],
+  "phonetics": ["be-de-lid", "ku soo be-del", "meel ka-le dhig"],
+  "description": "To take the place of something or to provide a substitute."
+},
+{
+  "english": "Request",
+  "maay": ["codsi", "weydiisasho", "dalab"],
+  "phonetics": ["cod-si", "wey-dii-sa-sho", "da-lab"],
+  "description": "An act of asking for something."
+},
+{
+  "english": "Respect",
+  "maay": ["ixtiraam", "qadarin", "xushmad"],
+  "phonetics": ["ix-ti-raam", "qa-da-rin", "xush-mad"],
+  "description": "A feeling of deep admiration for someone or something."
+},
+{
+  "english": "Rest",
+  "maay": ["nasasho", "isku deganaan", "hurdo yar"],
+  "phonetics": ["na-sa-sho", "is-ku de-ga-naan", "hur-do yar"],
+  "description": "To cease work or movement in order to relax or recover."
+},
+{
+  "english": "Return",
+  "maay": ["soo celid", "ku noqoshada", "soo laabasho"],
+  "phonetics": ["soo ce-lid", "ku no-qo-sha-da", "soo laa-ba-sho"],
+  "description": "To come or go back to a place or condition."
+},
+{
+  "english": "Ride",
+  "maay": ["kor fuulid", "raacis", "socod gaadiid"],
+  "phonetics": ["kor fuu-lid", "raa-cis", "so-cod gaa-diid"],
+  "description": "To travel on or in a vehicle or animal."
+},
+{
+  "english": "Right",
+  "maay": ["midig", "sax ah", "xaq"],
+  "phonetics": ["mi-dig", "sax ah", "xaq"],
+  "description": "Morally good, correct, or on the right-hand side."
+},
+{
+  "english": "Ring",
+  "maay": ["faruur", "giraanta", "wareeg"],
+  "phonetics": ["fa-ruur", "gi-raan-ta", "wa-reeg"],
+  "description": "A small circular band, typically of precious metal, worn on a finger or used for other purposes."
+},
+{
+  "english": "Rise",
+  "maay": ["kordhin", "soo kacid", "kor u qaadid"],
+  "phonetics": ["kor-dhin", "soo ka-cid", "kor u qaa-did"],
+  "description": "To move upward or increase in position or value."
+},
+{
+  "english": "Risk",
+  "maay": ["halis", "khatarta", "isku day halis ah"],
+  "phonetics": ["ha-lis", "kha-tar-ta", "is-ku day ha-lis ah"],
+  "description": "The possibility of something bad happening."
+},
+{
+  "english": "Road",
+  "maay": ["wadada", "jid", "jidadka"],
+  "phonetics": ["wa-da-da", "jid", "ji-dad-ka"],
+  "description": "A wide way leading from one place to another."
+},
+{
+  "english": "Rock",
+  "maay": ["dhagax", "dhul adag", "ciida adag"],
+  "phonetics": ["dha-gax", "dhul a-dag", "cii-da a-dag"],
+  "description": "A solid mineral material forming part of the Earth's surface."
+},
+{
+  "english": "Roll",
+  "maay": ["duubid", "isku wareejin", "socod wareegsan"],
+  "phonetics": ["duu-bid", "is-ku wa-ree-jin", "so-cod wa-reeg-san"],
+  "description": "To move or cause to move in a particular direction by turning over and over."
+},
+{
+  "english": "Room",
+  "maay": ["qolka", "meel gudaha ah", "dhisme gudaha ah"],
+  "phonetics": ["qol-ka", "meel gu-da-ha ah", "dhis-me gu-da-ha ah"],
+  "description": "A part of a building enclosed by walls, floor, and ceiling."
+},
+{
+  "english": "Rule",
+  "maay": ["sharci", "qaanuun", "nidaam"],
+  "phonetics": ["shar-ci", "qaa-nuun", "ni-daam"],
+  "description": "A set of explicit or understood regulations governing conduct."
+},
+{
+  "english": "Run",
+  "maay": ["orod", "socod degdeg ah", "ka carar"],
+  "phonetics": ["o-rod", "so-cod deg-deg ah", "ka ca-rar"],
+  "description": "To move at a speed faster than walking."
+},
+{
+  "english": "Safe",
+  "maay": ["nabadgelyo", "badbaado", "amaanka"],
+  "phonetics": ["na-bad-ge-lyo", "bad-baa-do", "a-maan-ka"],
+  "description": "Protected from or not exposed to danger or risk."
+},
+{
+  "english": "Same",
+  "maay": ["isku mid", "u dhiganta", "lamid ah"],
+  "phonetics": ["is-ku mid", "u dhi-gan-ta", "la-mid ah"],
+  "description": "Identical; not different."
+},
+{
+  "english": "Save",
+  "maay": ["badbaadi", "keydin", "ilaalin"],
+  "phonetics": ["bad-baa-di", "key-din", "i-laa-lin"],
+  "description": "To keep safe or rescue from harm or danger."
+},
+{
+  "english": "Say",
+  "maay": ["sheeg", "odhan", "hadal"],
+  "phonetics": ["sheeg", "o-dhan", "ha-dal"],
+  "description": "To express something in words."
+},
+{
+  "english": "School",
+  "maay": ["iskuul", "dugsiga", "waxbarasho"],
+  "phonetics": ["is-kuul", "dug-si-ga", "wax-ba-ra-sho"],
+  "description": "An institution for educating children or adults."
+},
+{
+  "english": "Science",
+  "maay": ["cilmi", "saynis", "aqoonta dabiiciga ah"],
+  "phonetics": ["cil-mi", "say-nis", "aqoon-ta da-bi-i-ci-ga ah"],
+  "description": "The study of the structure and behavior of the physical and natural world."
+},
+{
+  "english": "Score",
+  "maay": ["dhibcaha", "guul", "natiijo"],
+  "phonetics": ["dhib-ca-ha", "guul", "na-ti-ijo"],
+  "description": "The number of points achieved in a game or test."
+},
+{
+  "english": "Sea",
+  "maay": ["badda", "biyaha weyn", "badweyn"],
+  "phonetics": ["bad-da", "bi-ya-ha weyn", "bad-weyn"],
+  "description": "A large body of saltwater that covers much of the Earth's surface."
+},
+{
+  "english": "Search",
+  "maay": ["raadinta", "baaritaan", "soo helid"],
+  "phonetics": ["raa-din-ta", "baa-ri-taan", "soo he-lid"],
+  "description": "To try to find something by looking carefully."
+},
+{
+  "english": "See",
+  "maay": ["arkid", "fiirso", "soo eeg"],
+  "phonetics": ["ar-kid", "fii-rso", "soo eeg"],
+  "description": "To perceive with the eyes."
+},
+{
+  "english": "Sell",
+  "maay": ["iibin", "gadin", "ka iibinta"],
+  "phonetics": ["ii-bin", "ga-din", "ka ii-bin-ta"],
+  "description": "To exchange a product or service for money."
+},
+{
+  "english": "Send",
+  "maay": ["dirid", "soo gudbin", "u geeyid"],
+  "phonetics": ["di-rid", "soo gud-bin", "u gee-yid"],
+  "description": "To cause something to go from one place to another."
+},
+{
+  "english": "Sense",
+  "maay": ["dareen", "fahmid", "xog uruurin"],
+  "phonetics": ["da-reen", "fah-mid", "xog u-ruu-rin"],
+  "description": "A faculty by which the body perceives external stimuli."
+},
+{
+  "english": "Serve",
+  "maay": ["adeegid", "u adeegid", "soo gudbin"],
+  "phonetics": ["a-dee-gid", "u a-dee-gid", "soo gud-bin"],
+  "description": "To perform duties or services for another."
+},
+{
+  "english": "Set",
+  "maay": ["dejis", "soo dhig", "qaabeyn"],
+  "phonetics": ["de-jis", "soo dhig", "qaa-beyn"],
+  "description": "To put or place something in a particular position."
+},
+{
+  "english": "Short",
+  "maay": ["gaaban", "yar", "wakhti gaaban"],
+  "phonetics": ["gaa-ban", "yar", "wak-ti gaa-ban"],
+  "description": "Measuring a small distance or duration."
+},
+{
+  "english": "Show",
+  "maay": ["muujin", "soo bandhigid", "tusid"],
+  "phonetics": ["muu-jin", "soo ban-dhi-gid", "tu-sid"],
+  "description": "To allow something to be seen or demonstrated."
+},
+{
+  "english": "Side",
+  "maay": ["dhinac", "gees", "xaafad"],
+  "phonetics": ["dhi-nac", "gees", "xaa-fad"],
+  "description": "A position to the left or right of an object or person."
+},
+{
+  "english": "Simple",
+  "maay": ["fudud", "sahlan", "aan dhib lahayn"],
+  "phonetics": ["fu-dud", "sah-lan", "aan dhib la-hayn"],
+  "description": "Easily understood or done; not complicated."
+},
+{
+  "english": "Sing",
+  "maay": ["heesid", "cod soo saarid", "gabey"],
+  "phonetics": ["hee-sid", "cod soo saa-rid", "ga-bey"],
+  "description": "To produce musical sounds with the voice."
+},
+{
+  "english": "Sister",
+  "maay": ["walaashaa", "walaal dumar", "gabadh walaal ah"],
+  "phonetics": ["wa-laash-aa", "wa-laal du-mar", "ga-badh wa-laal ah"],
+  "description": "A female sibling."
+},
+{
+  "english": "Sit",
+  "maay": ["fadhiiso", "iska fariiso", "dhexdooda fadhiiso"],
+  "phonetics": ["fa-dhi-i-so", "is-ka fa-ri-i-so", "dhex-doo-da fa-dhi-i-so"],
+  "description": "To adopt a seated position."
+},
+{
+  "english": "Sleep",
+  "maay": ["seexasho", "hurdo", "nasasho"],
+  "phonetics": ["see-xa-sho", "hur-do", "na-sa-sho"],
+  "description": "A state of rest in which the body is inactive and the mind unconscious."
+},
+{
+  "english": "Slow",
+  "maay": ["gaabis", "tartiib", "aad u gaabis ah"],
+  "phonetics": ["gaa-bis", "tar-tiib", "aad u gaa-bis ah"],
+  "description": "Moving or operating at a low speed."
+},
+{
+  "english": "Small",
+  "maay": ["yar", "aad u yar", "cabbir yar"],
+  "phonetics": ["yar", "aad u yar", "cab-bir yar"],
+  "description": "Of a size that is less than normal or usual."
+},
+{
+  "english": "Smile",
+  "maay": ["dhoolacadeyn", "farxad muujin", "ilko muujin"],
+  "phonetics": ["dhoo-la-ca-deyn", "far-xad muu-jin", "il-ko muu-jin"],
+  "description": "A facial expression characterized by turning up the corners of the mouth."
+},
+{
+  "english": "Snow",
+  "maay": ["baraf", "quraarado baraf ah", "dhaxan"],
+  "phonetics": ["ba-raf", "qu-raa-ra-do ba-raf ah", "dha-xan"],
+  "description": "Frozen precipitation in the form of white flakes."
+},
+{
+  "english": "Some",
+  "maay": ["qaar", "waxoogaa", "badankood"],
+  "phonetics": ["qaar", "wa-xoo-gaa", "ba-dan-kood"],
+  "description": "An unspecified amount or number of something."
+},
+{
+  "english": "Song",
+  "maay": ["hees", "gabay", "dhigane hees ah"],
+  "phonetics": ["hees", "ga-bay", "dhi-ga-ne hees ah"],
+  "description": "A short piece of music with words."
+},
+{
+  "english": "Speak",
+  "maay": ["hadal", "la hadal", "ku sheegid"],
+  "phonetics": ["ha-dal", "la ha-dal", "ku shee-gid"],
+  "description": "To say words in order to convey information or express a feeling."
+},
+{
+  "english": "Spend",
+  "maay": ["ku bixi", "isticmaalid", "ku bixinta lacagta"],
+  "phonetics": ["ku bi-xi", "is-tic-maa-lid", "ku bi-xin-ta la-cag-ta"],
+  "description": "To pay out money or use time on a particular thing."
+},
+{
+  "english": "Stand",
+  "maay": ["istaag", "taagnaansho", "soo istaagid"],
+  "phonetics": ["is-taag", "taag-naan-sho", "soo is-taa-gid"],
+  "description": "To be in an upright position on the feet."
+},
+{
+  "english": "Star",
+  "maay": ["xiddig", "ilays cirka ah", "ubax cirka"],
+  "phonetics": ["xid-dig", "i-lays cir-ka ah", "u-bax cir-ka"],
+  "description": "A luminous point in the night sky that is a large, remote incandescent body like the sun."
+},
+{
+  "english": "Start",
+  "maay": ["bilow", "soo bilow", "qorshe ka billaabid"],
+  "phonetics": ["bi-low", "soo bi-low", "qor-she ka bil-laa-bid"],
+  "description": "To begin doing something."
+},
+{
+  "english": "Stay",
+  "maay": ["iska joog", "sii joogid", "ku sugnaansho"],
+  "phonetics": ["is-ka joog", "sii joo-gid", "ku sug-naan-sho"],
+  "description": "To remain in the same place or condition."
+},
+{
+  "english": "Step",
+  "maay": ["talaabo", "socod", "dhacdo talaabo ah"],
+  "phonetics": ["ta-laa-bo", "so-cod", "dha-cdo ta-laa-bo ah"],
+  "description": "An act of lifting and setting down the foot in walking or running."
+},
+{
+  "english": "Stop",
+  "maay": ["jooji", "iska jooji", "meesha ka joogso"],
+  "phonetics": ["joo-ji", "is-ka joo-ji", "mee-sha ka joo-gso"],
+  "description": "To cease motion, action, or operation."
+},
+{
+  "english": "Story",
+  "maay": ["sheeko", "qiso", "warbixin dheer"],
+  "phonetics": ["shee-ko", "qi-so", "war-bix-in dheer"],
+  "description": "A description of events, either true or fictional."
+},
+{
+  "english": "Strong",
+  "maay": ["xooggan", "daran", "aad u xoog badan"],
+  "phonetics": ["xoog-gan", "da-ran", "aad u xoog ba-dan"],
+  "description": "Having great physical power or showing resilience."
+},
+{
+  "english": "Success",
+  "maay": ["guul", "horumar", "natiijo wanaagsan"],
+  "phonetics": ["guul", "ho-ru-mar", "na-ti-ijo waa-naag-san"],
+  "description": "The accomplishment of an aim or purpose."
+},
+{
+  "english": "Sugar",
+  "maay": ["sonkor", "macaan", "biyaha sonkorta"],
+  "phonetics": ["son-kor", "ma-caan", "bi-ya-ha son-kor-ta"],
+  "description": "A sweet substance obtained from plants like sugarcane or sugar beet."
+},
+{
+  "english": "Summer",
+  "maay": ["xagaaga", "waqti kulul", "jiilaalka kuleylka"],
+  "phonetics": ["xa-gaa-ga", "waq-ti ku-lul", "jii-laal-ka ku-leyl-ka"],
+  "description": "The warmest season of the year."
+},
+{
+  "english": "Sun",
+  "maay": ["qorraxda", "ilayska weyn", "cirka sare ee iftiinka"],
+  "phonetics": ["qor-rax-da", "i-lays-ka weyn", "cir-ka sa-re ee if-ti-in-ka"],
+  "description": "The star around which the Earth orbits, providing light and warmth."
+},
+{
+  "english": "Support",
+  "maay": ["taageero", "caawin", "gargaarid"],
+  "phonetics": ["taa-gee-ro", "caa-win", "gar-gaa-rid"],
+  "description": "To bear all or part of the weight or provide assistance."
+},
+{
+  "english": "Sure",
+  "maay": ["hubanti", "kalsooni", "xaqiiqo"],
+  "phonetics": ["hu-ban-ti", "kal-soo-ni", "xa-qii-qo"],
+  "description": "Confident in what one thinks or knows; certain."
+},
+{
+  "english": "Table",
+  "maay": ["miis", "meesha cuntada", "dhisme miis ah"],
+  "phonetics": ["miis", "mee-sha cun-ta-da", "dhis-me miis ah"],
+  "description": "A piece of furniture with a flat top and one or more legs, providing a level surface for eating, working, or playing."
+},
+{
+  "english": "Take",
+  "maay": ["qaadid", "soo qaadid", "haysasho"],
+  "phonetics": ["qaa-did", "soo qaa-did", "hay-sa-sho"],
+  "description": "To get into one's possession or control."
+},
+{
+  "english": "Talk",
+  "maay": ["hadal", "sheekeysi", "warbixin"],
+  "phonetics": ["ha-dal", "shee-key-si", "war-bix-in"],
+  "description": "To communicate or exchange ideas through spoken words."
+},
+{
+  "english": "Tall",
+  "maay": ["dheer", "sare", "kor u kacsan"],
+  "phonetics": ["dheer", "sa-re", "kor u kac-san"],
+  "description": "Of greater than average height."
+},
+{
+  "english": "Teach",
+  "maay": ["barid", "waxbarasho", "cashar siin"],
+  "phonetics": ["ba-rid", "wax-ba-ra-sho", "ca-shar siin"],
+  "description": "To impart knowledge or instruct someone."
+},
+{
+  "english": "Team",
+  "maay": ["koox", "iskaashatada", "ciyaartooyda"],
+  "phonetics": ["koox", "is-kaa-sha-ta-da", "ci-yaar-too-yda"],
+  "description": "A group of people working together to achieve a goal."
+},
+{
+  "english": "Tell",
+  "maay": ["u sheegid", "ka warbixin", "cadeyn"],
+  "phonetics": ["u shee-gid", "ka war-bi-xin", "ca-deyn"],
+  "description": "To communicate information, facts, or news to someone."
+},
+{
+  "english": "Thank",
+  "maay": ["mahadsanid", "ugu mahadcelin", "ogolaansho mahad ah"],
+  "phonetics": ["ma-had-sa-nid", "u-gu ma-had-ce-lin", "o-go-laan-sho ma-had ah"],
+  "description": "To express gratitude to someone."
+},
+{
+  "english": "Think",
+  "maay": ["fikir", "ku fakarid", "aragti ku sameyn"],
+  "phonetics": ["fi-kir", "ku fa-ka-rid", "a-rag-ti ku sa-meyn"],
+  "description": "To have or form ideas in the mind."
+},
+{
+  "english": "Throw",
+  "maay": ["tuurid", "soo tuur", "iska tuur"],
+  "phonetics": ["tuu-rid", "soo tuur", "is-ka tuur"],
+  "description": "To propel something with force through the air by a movement of the arm."
+},
+{
+  "english": "Time",
+  "maay": ["waqti", "xilli", "saacad"],
+  "phonetics": ["waq-ti", "xil-li", "saa-cad"],
+  "description": "The indefinite continued progress of existence and events."
+},
+{
+  "english": "Tired",
+  "maay": ["daallan", "daal badan", "isku dulay"],
+  "phonetics": ["daal-lan", "daal ba-dan", "is-ku du-lay"],
+  "description": "In need of rest or sleep; fatigued."
+},
+{
+  "english": "Today",
+  "maay": ["maanta", "maalinta maanta", "xilliga hadda"],
+  "phonetics": ["maan-ta", "maa-lin-ta maan-ta", "xil-li-ga had-da"],
+  "description": "The present day."
+},
+{
+  "english": "Together",
+  "maay": ["isku wada", "wadajir", "midnimo"],
+  "phonetics": ["is-ku wa-da", "wa-da-jir", "mid-ni-mo"],
+  "description": "With or in proximity to another person or thing."
+},
+{
+  "english": "Tomorrow",
+  "maay": ["berri", "maalinta berri", "xilliga soo socda"],
+  "phonetics": ["ber-ri", "maa-lin-ta ber-ri", "xil-li-ga soo soc-da"],
+  "description": "The day after today."
+},
+{
+  "english": "Top",
+  "maay": ["sare", "kor", "meesha ugu saraysa"],
+  "phonetics": ["sa-re", "kor", "mee-sha u-gu sa-ray-sa"],
+  "description": "The highest or uppermost point, part, or surface."
+},
+{
+  "english": "Touch",
+  "maay": ["taabasho", "gacan saar", "dareen taabid"],
+  "phonetics": ["taa-ba-sho", "ga-can saar", "da-reen taa-bid"],
+  "description": "To come into physical contact with something."
+},
+{
+  "english": "Town",
+  "maay": ["magaalo", "tuulo", "aag degaan"],
+  "phonetics": ["ma-gaa-lo", "tuu-lo", "aag de-gaan"],
+  "description": "A built-up area that is larger than a village but smaller than a city."
+},
+{
+  "english": "Travel",
+  "maay": ["safar", "socdaal", "meerid"],
+  "phonetics": ["sa-far", "soc-daal", "mee-rid"],
+  "description": "To go from one place to another."
+},
+{
+  "english": "Tree",
+  "maay": ["geed", "dhir", "ubax geed ah"],
+  "phonetics": ["geed", "dhir", "u-bax geed ah"],
+  "description": "A perennial plant with a woody stem, leaves, and branches."
+},
+{
+  "english": "True",
+  "maay": ["run", "dhab ah", "xaqiiq"],
+  "phonetics": ["run", "dhab ah", "xa-qiiq"],
+  "description": "In accordance with fact or reality."
+},
+{
+  "english": "Try",
+  "maay": ["isku day", "ku dadaal", "tijaabi"],
+  "phonetics": ["is-ku day", "ku da-daal", "ti-jaa-bi"],
+  "description": "To make an attempt or effort to do something."
+},
+{
+  "english": "Turn",
+  "maay": ["leexasho", "wareejin", "bedelid"],
+  "phonetics": ["lee-xa-sho", "wa-ree-jin", "be-de-lid"],
+  "description": "To move in a circular direction around a point."
+},
+{
+  "english": "Type",
+  "maay": ["nooca", "qayb", "hab"],
+  "phonetics": ["noo-ca", "qayb", "hab"],
+  "description": "A category or group of things having common characteristics."
+},
+{
+  "english": "Understand",
+  "maay": ["fahmid", "garasho", "aqoonsi"],
+  "phonetics": ["fah-mid", "ga-ra-sho", "aq-oon-si"],
+  "description": "To comprehend or grasp the meaning of something."
+},
+{
+  "english": "Use",
+  "maay": ["isticmaalid", "adeegsasho", "ku shaqeyn"],
+  "phonetics": ["is-tic-maa-lid", "a-deeg-sa-sho", "ku shaq-eyn"],
+  "description": "To employ something for a particular purpose."
+},
+{
+  "english": "Usual",
+  "maay": ["caadi ah", "inta badan", "aan ka duwanayn"],
+  "phonetics": ["caa-di ah", "in-ta ba-dan", "aan ka du-wa-nayn"],
+  "description": "Happening or done most of the time; customary."
+},
+{
+  "english": "Value",
+  "maay": ["qiimo", "wax ku ool ah", "mudnaan"],
+  "phonetics": ["qii-mo", "wax ku oo-l ah", "mud-naan"],
+  "description": "The worth of something in terms of its importance or usefulness."
+},
+{
+  "english": "Visit",
+  "maay": ["soo booqasho", "booqo", "soo wacasho"],
+  "phonetics": ["soo boo-qa-sho", "boo-qo", "soo wa-ca-sho"],
+  "description": "To go to see a person or place for a particular purpose."
+},
+{
+  "english": "Voice",
+  "maay": ["codka", "hadal", "afka"],
+  "phonetics": ["cod-ka", "ha-dal", "af-ka"],
+  "description": "The sound produced by the vocal cords and used for speaking."
+},
+{
+  "english": "Vote",
+  "maay": ["cod bixid", "doorasho", "qoraal cod ah"],
+  "phonetics": ["cod bix-id", "doo-ra-sho", "qo-raal cod ah"],
+  "description": "A formal indication of a choice between options."
+},
+{
+  "english": "Walk",
+  "maay": ["socod", "lugayn", "talaabso"],
+  "phonetics": ["so-cod", "lu-gayn", "ta-laab-so"],
+  "description": "To move at a regular pace by lifting and setting down each foot in turn."
+},
+{
+  "english": "Want",
+  "maay": ["rabid", "jeclaan", "baahi"],
+  "phonetics": ["ra-bid", "jec-laan", "baa-hi"],
+  "description": "To have a desire for something."
+},
+{
+  "english": "Warm",
+  "maay": ["kulul", "diiran", "heerkul dhexdhexaad"],
+  "phonetics": ["ku-lul", "dii-ran", "heer-kul dhex-dhex-aad"],
+  "description": "Having a temperature that is comfortably high but not hot."
+},
+{
+  "english": "Wash",
+  "maay": ["mayrid", "nadiifin", "qubeyso"],
+  "phonetics": ["may-rid", "na-dii-fin", "qu-bey-so"],
+  "description": "To clean with water, often with soap or detergent."
+},
+{
+  "english": "Watch",
+  "maay": ["daawasho", "fiirso", "ilaalin"],
+  "phonetics": ["daa-wa-sho", "fii-rso", "i-laa-lin"],
+  "description": "To look at or observe attentively over a period of time."
+},
+{
+  "english": "Water",
+  "maay": ["biyo", "webiga", "dareer"],
+  "phonetics": ["bi-yo", "we-bi-ga", "da-reer"],
+  "description": "A clear liquid essential for most forms of life."
+},
+{
+  "english": "Way",
+  "maay": ["jid", "wadada", "hab"],
+  "phonetics": ["jid", "wa-da-da", "hab"],
+  "description": "A method, style, or manner of doing something."
+},
+{
+  "english": "Weak",
+  "maay": ["daciif", "xoog la’aan", "aadiifnimo"],
+  "phonetics": ["da-ciif", "xoog la-aan", "aa-dii-fi-mo"],
+  "description": "Lacking strength or energy."
+},
+{
+  "english": "Wear",
+  "maay": ["xirashada", "huurid", "dhar xidho"],
+  "phonetics": ["xi-ra-sha-da", "huu-rid", "dhar xi-dho"],
+  "description": "To have clothing, jewelry, or accessories on the body."
+},
+{
+  "english": "Weather",
+  "maay": ["cimilada", "heerkulka hawada", "roob iyo qorax"],
+  "phonetics": ["ci-mi-la-da", "heer-kul-ka ha-wa-da", "roob iyo qo-rax"],
+  "description": "The state of the atmosphere at a particular time and place."
+},
+{
+  "english": "Week",
+  "maay": ["usbuuc", "todobaad", "maalmo isku xiga"],
+  "phonetics": ["us-buu-c", "to-do-baad", "maal-mo is-ku xi-ga"],
+  "description": "A period of seven days."
+},
+{
+  "english": "Well",
+  "maay": ["fiican", "wanaagsan", "sax ah"],
+  "phonetics": ["fii-can", "wa-naag-san", "sax ah"],
+  "description": "In a good or satisfactory way."
+},
+{
+  "english": "Win",
+  "maay": ["guuleysi", "helid guul", "horumar"],
+  "phonetics": ["guu-ley-si", "he-lid guul", "ho-ru-mar"],
+  "description": "To achieve victory in a contest or conflict."
+},
+{
+  "english": "Wind",
+  "maay": ["dabayl", "hawada socota", "neecow"],
+  "phonetics": ["da-bayl", "ha-wa-da so-co-ta", "nee-cow"],
+  "description": "The movement of air, especially in the form of a current."
+},
+{
+  "english": "Window",
+  "maay": ["daaqad", "furitaanka gidaarka", "meel iftiin soo galaan"],
+  "phonetics": ["daa-qad", "fu-ri-taan-ka gi-daar-ka", "meel if-ti-in soo ga-laan"],
+  "description": "An opening in a wall or roof that allows light or air to enter."
+},
+{
+  "english": "Winter",
+  "maay": ["jiilaal", "xilliga qabowga", "waqti baraf"],
+  "phonetics": ["jii-laal", "xil-li-ga qa-bow-ga", "waq-ti ba-raf"],
+  "description": "The coldest season of the year."
+},
+{
+  "english": "Wish",
+  "maay": ["rabitaan", "jeclaan", "doonid"],
+  "phonetics": ["ra-bi-taan", "jec-laan", "doo-nid"],
+  "description": "A desire or hope for something to happen."
+},
+{
+  "english": "Work",
+  "maay": ["shaqo", "howl", "hawlgal"],
+  "phonetics": ["sha-qo", "howl", "hawl-gal"],
+  "description": "Activity involving mental or physical effort to achieve a result."
+},
+{
+  "english": "World",
+  "maay": ["adduunka", "dunida", "meeraha dhulka"],
+  "phonetics": ["ad-duun-ka", "du-ni-da", "mee-ra-ha dhul-ka"],
+  "description": "The earth and all its inhabitants and features."
+},
+{
+  "english": "Write",
+  "maay": ["qorid", "soo qor", "farid"],
+  "phonetics": ["qo-rid", "soo qor", "fa-rid"],
+  "description": "To mark letters, words, or symbols on a surface."
+},
+{
+  "english": "X-ray",
+  "maay": ["raajada", "sawir gudaha ah", "iftiinka raajada"],
+  "phonetics": ["raa-ja-da", "sa-wir gu-da-ha ah", "if-tiin-ka raa-ja-da"],
+  "description": "A type of radiation used to create images of the inside of the body."
+},
+{
+  "english": "Year",
+  "maay": ["sano", "xilli sanadeed", "waqti dheer"],
+  "phonetics": ["sa-no", "xil-li sa-na-deed", "waq-ti dheer"],
+  "description": "A period of 12 months."
+},
+{
+  "english": "Yes",
+  "maay": ["haa", "ogolow", "waaqici"],
+  "phonetics": ["haa", "o-go-low", "waa-qi-ci"],
+  "description": "Used to express affirmation or agreement."
+},
+{
+  "english": "Yesterday",
+  "maay": ["shalay", "maalintii hore", "waqti dhaw hore"],
+  "phonetics": ["sha-lay", "maa-lin-tii ho-re", "waq-ti dhaw ho-re"],
+  "description": "The day before today."
+},
+{
+  "english": "Young",
+  "maay": ["dhallinyaro", "yar", "curdin"],
+  "phonetics": ["dhal-lin-ya-ro", "yar", "cur-din"],
+  "description": "Having lived or existed for only a short time."
+},
+{
+  "english": "You",
+  "maay": ["adiga", "idinka", "waxaad"],
+  "phonetics": ["a-di-ga", "i-din-ka", "wa-xaad"],
+  "description": "The person or people being addressed."
+},
+{
+  "english": "Zoo",
+  "maay": ["beerta xayawaanka", "xero xayawaan", "meel xayawaan lagu hayo"],
+  "phonetics": ["beer-ta xay-awa-an-ka", "xe-ro xay-a-waan", "meel xay-a-waan la-gu ha-yo"],
+  "description": "A facility where animals are housed within enclosures for public display."
+},
+{
+  "english": "Zero",
+  "maay": ["eber", "waxba", "bilaa tiro"],
+  "phonetics": ["e-ber", "wax-ba", "bi-laa ti-ro"],
+  "description": "The numerical symbol that represents no quantity or value."
+},
+{
+  "english": "Zebra",
+  "maay": ["dameer fardo leh", "xayawaan la xarriiqay", "xayawaan duurjoog ah"],
+  "phonetics": ["da-meer far-do leh", "xay-a-waan la xar-riiq-ay", "xay-a-waan du-ur-joog ah"],
+  "description": "An African wild animal similar to a horse, with black-and-white stripes."
 },
 
 ];
