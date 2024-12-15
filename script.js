@@ -8,7 +8,7 @@ const words = [
 },
 {
   "english": "Abase",
-  "maay": ["hoos'saar", "hoosdhig"],
+  "maay": ["hoos saar", "hoos dhig"],
   "phonetics": ["hoos-saar", "hoos-dhig"],
   "description": "To lower in rank, office, prestige, or esteem."
 },
