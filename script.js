@@ -15,7 +15,7 @@ const words = [
 {
   "english": "Abate",
   "maay": ["dhegsithi", "yarathi", "gaawithi"],
-  "phonetics": ["dheeg-see-thee", "gaa-wee-thee"],
+  "phonetics": ["dheeg-see-thee", "yaa-raa-thee", "gaa-wee-thee"],
   "description": "To reduce in intensity, degree, or severity."
 },
 {
@@ -27,13 +27,13 @@ const words = [
 {
   "english": "Abduct",
   "maay": ["afduub", "qawath", "qaadmaan"],
-  "phonetics": ["af-duub", "qa-wath", "qaad-maan"],
+  "phonetics": ["aaf-duub", "qaa-waath", "qaad-maan"],
   "description": "To take someone away illegally by force."
 },
 {
   "english": "Abhor",
-  "maay": ["neceb", "karhi", "xiqi"],
-  "phonetics": ["ne-ceb", "kar-hi", "xi-qi"],
+  "maay": ["nee'ee", "ash'ashi"],
+  "phonetics": ["nee-ee", "aash-aashee"],
   "description": "To regard with disgust and hatred."
 },
 {
