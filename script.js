@@ -5,14 +5,12 @@ const words = [
   "maay": ["katag", "dhaaf"],
   "phonetics": ["kah-tag", "dhaaf"],
   "description": "To leave something or someone behind completely."
-  "telmaam": "marki koof la katago usu dhamaan la dhafo."
 },
 {
   "english": "Abase",
   "maay": ["hoos saar", "hoosdhig"],
   "phonetics": ["hoo-saar", "hoos-dig"],
   "description": "To lower in rank, office, prestige, or esteem."
-  "telmaam": "marka kofka kor eya hoos la saar mis hoos la dhigow."
 },
 {
   "english": "Abate",
