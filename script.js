@@ -1,6 +1,6 @@
 // Centralized word list
 const words = [
-  {
+{
   "english": "Abandon",
   "maay": ["katag", "dhaaf"],
   "phonetics": ["kah-tag", "dhaaf"],
