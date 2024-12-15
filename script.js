@@ -9,7 +9,7 @@ const words = [
 {
   "english": "Abase",
   "maay": ["hoos'saar", "hoosdhig"],
-  "phonetics": ["hoos-saar", "hoos-dig"],
+  "phonetics": ["hoos-saar", "hoos-dhig"],
   "description": "To lower in rank, office, prestige, or esteem."
 },
 {
@@ -4374,9 +4374,9 @@ const words = [
   "phonetics": ["da-meer far-do leh", "xay-a-waan la xar-riiq-ay", "xay-a-waan du-ur-joog ah"],
   "description": "An African wild animal similar to a horse, with black-and-white stripes."
 },
-
 ];
-// Display words dynamically
+
+// Function to Display Words Dynamically
 function displayWords(data) {
   const wordList = document.getElementById('word-list');
   wordList.innerHTML = ''; // Clear current list
@@ -4406,42 +4406,43 @@ function displayWords(data) {
   });
 }
 
-// Text-to-Speech function
+// Text-to-Speech Function
 function readText(word) {
   const synth = window.speechSynthesis;
 
-  // Prepare text to be read
-  const textToRead = `
-    The English word is ${word.english}.
-    The Maay translation is ${word.maay ? word.maay.join(', ') : 'N/A'}.
-    The phonetics are ${word.phonetics ? word.phonetics.join(', ') : 'N/A'}.
-    Description: ${word.description || 'N/A'}.
-  `;
+  // English Part (Set TTS Language to English)
+  const englishText = `The English word is ${word.english}. Description: ${word.description || 'N/A'}.`;
+  const englishUtterance = new SpeechSynthesisUtterance(englishText);
+  englishUtterance.lang = "en-US"; // Use American English for the English parts
+  englishUtterance.rate = 0.9;
+  englishUtterance.pitch = 1;
 
-  // Create a new speech synthesis utterance
-  const utterance = new SpeechSynthesisUtterance(textToRead);
-  utterance.lang = "sw-TZ"; // Change to Swahili
-  utterance.rate = 0.9;     // Adjust speaking speed
-  utterance.pitch = 1;      // Adjust pitch
+  // Maay Part (Set TTS Language to Swahili for Maay Approximation)
+  const maayText = `The Maay translation is ${word.maay ? word.maay.join(', ') : 'N/A'}. The phonetics are ${word.phonetics ? word.phonetics.join(', ') : 'N/A'}.`;
+  const maayUtterance = new SpeechSynthesisUtterance(maayText);
+  maayUtterance.lang = "sw-TZ"; // Swahili for approximating Maay
+  maayUtterance.rate = 0.9;
+  maayUtterance.pitch = 1;
 
-  // Speak the text
-  synth.speak(utterance);
+  // Queue Utterances to Play in Order
+  synth.speak(englishUtterance);
+  synth.speak(maayUtterance);
 }
 
-// Filter words based on search query
+// Filter Words Based on Search Query
 const searchBar = document.getElementById('search-bar');
 searchBar.addEventListener('input', function () {
   const searchQuery = searchBar.value.toLowerCase();
 
-  // Filter words matching the query
+  // Filter Words Matching the Query
   const filteredWords = words.filter(word => {
     return word.english.toLowerCase().includes(searchQuery) ||
            word.maay.some(maayWord => maayWord.toLowerCase().includes(searchQuery));
   });
 
-  // Update displayed words
+  // Update Displayed Words
   displayWords(filteredWords);
 });
 
-// Initialize with all words
+// Initialize with All Words
 displayWords(words);
