@@ -3,31 +3,31 @@ const words = [
 {
   "english": "Abandon",
   "maay": ["katag", "dhaaf"],
-  "phonetics": ["kah-tag", "dhaaf"],
+  "phonetics": ["ka-tag", "dhaaf"],
   "description": "To leave something or someone behind completely."
 },
 {
   "english": "Abase",
-  "maay": ["hoos saar", "hoosdhig"],
-  "phonetics": ["hoo-saar", "hoos-dig"],
+  "maay": ["hoos'saar", "hoosdhig"],
+  "phonetics": ["hoos-saar", "hoos-dig"],
   "description": "To lower in rank, office, prestige, or esteem."
 },
 {
   "english": "Abate",
-  "maay": ["hoosdheg", "yarathi", "jabso"],
-  "phonetics": ["ya-raa-do", "dhi-mo", "jab-so"],
+  "maay": ["dhegsithi", "yarathi", "gaawithi"],
+  "phonetics": ["dheeg-see-thee", "gaa-wee-thee"],
   "description": "To reduce in intensity, degree, or severity."
 },
 {
   "english": "Abdomen",
-  "maay": ["aloosh", "uuska"],
-  "phonetics": ["aa-loo-sh", "uus-ka"],
+  "maay": ["uurka", "uuska"],
+  "phonetics": ["uur-ka", "uus-ka"],
   "description": "The part of the body containing the digestive organs."
 },
 {
   "english": "Abduct",
-  "maay": ["afduub", "qawath", "qaado"],
-  "phonetics": ["af-duub", "qa-fa-sho", "qaa-do"],
+  "maay": ["afduub", "qawath", "qaadmaan"],
+  "phonetics": ["af-duub", "qa-wath", "qaad-maan"],
   "description": "To take someone away illegally by force."
 },
 {
