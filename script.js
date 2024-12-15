@@ -20,13 +20,13 @@ const words = [
 },
 {
   "english": "Abdomen",
-  "maay": ["caloosha", "xudunta", "jirka hoose"],
-  "phonetics": ["ca-loo-sha", "xu-dun-ta", "jir-ka hoo-se"],
+  "maay": ["aloosh", "dunta, "uurka"],
+  "phonetics": ["aa-loo-sh", "aa-dun-ta", "uur-ka"],
   "description": "The part of the body containing the digestive organs."
 },
 {
   "english": "Abduct",
-  "maay": ["afduub", "qafaasho", "qaado"],
+  "maay": ["afduub", "qawath", "qaado"],
   "phonetics": ["af-duub", "qa-fa-sho", "qaa-do"],
   "description": "To take someone away illegally by force."
 },
