@@ -2,26 +2,28 @@
 const words = [
   {
   "english": "Abandon",
-  "maay": ["katag", "dhaaf", "deyn"],
-  "phonetics": ["kah-tag", "dhaaf", "deyn"],
+  "maay": ["katag", "dhaaf"],
+  "phonetics": ["kah-tag", "dhaaf"],
   "description": "To leave something or someone behind completely."
+  "telmaam": "marki koof la katago usu dhamaan la dhafo."
 },
 {
   "english": "Abase",
-  "maay": ["hoosaysi", "qadarin la'aan"],
-  "phonetics": ["hoo-sa-ysi", "qa-da-rin la-aan"],
+  "maay": ["hoos saar", "hoosdhig"],
+  "phonetics": ["hoo-saar", "hoos-dig"],
   "description": "To lower in rank, office, prestige, or esteem."
+  "telmaam": "marka kofka kor eya hoos la saar mis hoos la dhigow."
 },
 {
   "english": "Abate",
-  "maay": ["yaraado", "dhimo", "jabso"],
+  "maay": ["hoosdheg", "yarathi", "jabso"],
   "phonetics": ["ya-raa-do", "dhi-mo", "jab-so"],
   "description": "To reduce in intensity, degree, or severity."
 },
 {
   "english": "Abdomen",
-  "maay": ["aloosh", "dunta, "uurka"],
-  "phonetics": ["aa-loo-sh", "aa-dun-ta", "uur-ka"],
+  "maay": ["aloosh", "uuska"],
+  "phonetics": ["aa-loo-sh", "uus-ka"],
   "description": "The part of the body containing the digestive organs."
 },
 {
