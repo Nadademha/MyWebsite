@@ -4420,7 +4420,7 @@ function readText(word) {
 
   // Create a new speech synthesis utterance
   const utterance = new SpeechSynthesisUtterance(textToRead);
-  utterance.lang = "en-US"; // Adjust language as needed
+  utterance.lang = "sw-TZ"; // Change to Swahili
   utterance.rate = 0.9;     // Adjust speaking speed
   utterance.pitch = 1;      // Adjust pitch
 
